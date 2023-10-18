@@ -1,0 +1,748 @@
+/*
+Theme Name: Marco Child Theme
+Theme URI: http://marco.puruno.com/wp/
+Description: Marco is a modern, unique & highly functional WordPress template suitable for any restaurants, cafes, wineries, sushi bars, bistros, bars, pubs and-and any other food-related businesses.
+Author: PURUNO
+Author URI: http://themeforest.net/user/puruno
+Template: marco
+Version: 1.0.1
+License: Themeforest Split Licence
+License URI: -
+Text Domain: marco
+Domain Path: /languages/
+*/
+
+.main-navigation .nav-items a {
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin: 0 12px;
+}
+
+.blog-comments {
+    display: none !important
+}
+
+.navigation-top .row {
+    max-width: none !important
+}
+
+.main-navigation .nav-items a,
+.fixed-nav>ul>li>a {
+    font-size: 11px;
+}
+
+.sorae-booking-form tbody {
+    border: none;
+    background-color: none
+}
+
+.sorae-booking-form tr {
+    border-bottom: solid 1px #e8e8e8;
+}
+
+.sorae-booking-form tr:last-child {
+    border-bottom: none;
+}
+
+.sorae-booking-form tr td {
+    padding-top: 40px;
+    position: relative;
+}
+
+.sorae-booking-form tr td {
+    text-align: center;
+}
+
+.sorae-booking-form tbody tr:nth-child(even) {
+    background: none !important
+}
+
+.sorae-booking-form td:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    width: 90px;
+    left: 50%;
+    margin-left: -45px;
+    height: 1px;
+    background: #111;
+    z-index: 1;
+    transition: transform .4s, background .4s;
+    display: none;
+}
+
+.sorae-booking-form td:last-child:after {
+    display: none;
+}
+
+.sorae-booking-form [type='date'] {
+    text-transform: uppercase;
+}
+
+.sorae-booking-form [type='text'],
+[type='password'],
+[type='date'],
+[type='datetime'],
+[type='datetime-local'],
+[type='month'],
+[type='week'],
+[type='email'],
+[type='number'],
+[type='search'],
+[type='tel'],
+[type='time'],
+[type='url'],
+[type='color'],
+textarea {
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    margin-bottom: 0
+}
+
+.sorae-booking-form textarea:focus {
+    border: none;
+    box-shadow: none;
+    height: 30px
+}
+
+.sorae-booking-form [type='email']:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.sorae-booking-form [type='tel']:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.sorae-booking-form textarea {
+    height: 30px !important
+}
+
+.sorae-booking-form input[type="submit"] {
+    padding: 18px 65px;
+    color: #111;
+    border: solid 1px #111;
+}
+
+.pum-theme-2028 .pum-container,
+.pum-theme-lightbox .pum-container {
+    padding: 18px;
+    border-radius: 3px;
+    border: 0 !important;
+    box-shadow: none !important;
+    background-color: rgba( 0, 0, 0, 0) !important;
+}
+
+.pum-theme-2028 .pum-content+.pum-close,
+.pum-theme-lightbox .pum-content+.pum-close {
+    position: absolute;
+    height: 26px;
+    width: 26px;
+    left: auto;
+    right: 0 !important;
+    bottom: auto;
+    top: 50px !important;
+    padding: 0px;
+    color: #ffffff;
+    font-family: Arial;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 24px;
+    border: 2px solid #ffffff;
+    border-radius: 26px;
+    box-shadow: 0px 0px 15px 1px rgba( 2, 2, 2, 0.75);
+    text-shadow: 0px 0px 0px rgba( 0, 0, 0, 0.23);
+    background-color: rgba( 0, 0, 0, 1.00);
+}
+
+.text-popup-banner a {
+    padding: 15px 15px;
+    background: none !important;
+    color: #fff !important;
+    border: 0 !important;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: 500ms all linear;
+}
+
+.sorae-booking-form [type='text']::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #111;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.sorae-booking-form [type='text']::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #111;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.sorae-booking-form [type='text']:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #111;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.sorae-booking-form [type='text']:-moz-placeholder {
+    /* Firefox 18- */
+    color: #111;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+/*Email*/
+
+.sorae-booking-form [type='email']::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #111;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.sorae-booking-form [type='email']::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorae-booking-form [type='email']:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorae-booking-form [type='email']:-moz-placeholder {
+    /* Firefox 18- */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/*Phone*/
+
+.sorae-booking-form [type='tel']::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorae-booking-form [type='tel']::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorae-booking-form [type='tel']:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorae-booking-form [type='tel']:-moz-placeholder {
+    /* Firefox 18- */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+/*MESSAGE*/
+
+.sorae-booking-form textarea::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorae-booking-form textarea::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorae-booking-form textarea:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #111;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorae-booking-form textarea:-moz-placeholder {
+    /* Firefox 18- */
+    color: #111;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.footer {
+    padding: 30px 0 0px !important;
+}
+
+/*MESSAGE*/
+
+.sorea-newsletter [type='email']::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorea-newsletter [type='email']::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorea-newsletter [type='email']:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorea-newsletter [type='email']:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+/*MESSAGE*/
+
+.sorea-newsletter [type='text']::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorea-newsletter [type='text']::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorea-newsletter [type='text']:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.sorea-newsletter [type='text']:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.popup_class .sorea-newsletter [type='text']::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.popup_class .sorea-newsletter [type='text']::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.popup_class .sorea-newsletter [type='text']:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.popup_class .sorea-newsletter [type='text']:-moz-placeholder {
+    /* Firefox 18- */
+    color: #000;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+/*MESSAGE*/
+
+.popup_class .sorea-newsletter [type='email']::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.popup_class .sorea-newsletter [type='email']::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.popup_class .sorea-newsletter [type='email']:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.popup_class .sorea-newsletter [type='email']:-moz-placeholder {
+    /* Firefox 18- */
+    color: #000;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+.popup_class .sorea-newsletter input[type="submit"] {
+    color: #000 !important;
+    border: solid 1px #000 !important;
+}
+
+.sorea-newsletter select {
+    margin: 0;
+    padding: 0.5rem;
+    height: auto;
+    font-size: 15px;
+}
+
+.sorea-newsletter [type='email'] {
+    border: none;
+    box-shadow: none;
+    border-bottom: solid 1px;
+    text-align: left;
+    font-size: 13px;
+}
+
+.sorea-newsletter [type='text'] {
+    border: none;
+    box-shadow: none;
+    border-bottom: solid 1px;
+    font-size: 13px;
+    margin-bottom: 0
+}
+
+.sorea-newsletter [type='email']:focus {
+    box-shadow: none;
+}
+
+.sorea-newsletter input[type="submit"] {
+    float: right;
+    padding: 8px 33px;
+    font-size: 12px !important;
+    border: solid 1px #fff;
+    margin-top: 16px;
+    text-transform: uppercase;
+    color: #fff !important;
+}
+
+.post-meta li {
+    display: none;
+}
+
+.single-post-header .post-date {
+    display: none;
+}
+
+.blog .post-content p {
+    height: 90px;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #252525;
+}
+
+.footer_bottom {
+    background-color: #000
+}
+
+.footer2 {
+    display: flex;
+    display: -webkit-flex;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 0;
+}
+
+.footer2 .content_left {
+    width: 50%;
+    color: #fff;
+}
+
+.footer2 .content_left img {
+    width: 120px
+}
+
+.footer2 .content_right {
+    width: 50%;
+    display: flex;
+    display: -webkit-flex;
+    padding-top: 43px;
+}
+
+.footer2 .content_right a:nth-child(1) img {
+    width: 100px
+}
+
+.footer2 .content_right a:nth-child(2) img {
+    width: 160px;
+    position: relative;
+    top: 30px;
+    padding-left: 20px;
+}
+
+.footer2 .content_right a:nth-child(3) img {
+    width: 140px;
+    padding-left: 10px;
+    position: relative;
+    top: 35px;
+}
+
+.marco-gallery-item .marco-gallery-item-title {
+    opacity: 1
+}
+
+@media only screen and (max-width: 767px) {
+    .footer2 {
+        flex-direction: column;
+    }
+    .footer2 .content_left {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer2 .content_right {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .text_align_center .animate-text.loaded-text {
+        text-align: center;
+    }
+    .gallery-filters {
+        display: none;
+    }
+    .marco-gallery-item-info {
+        background: #00000061;
+    }
+    .footer .widget {
+        margin-bottom: 30px
+    }
+    #scroll-up {
+        display: none !important;
+    }
+    [type='text'],
+    [type='password'],
+    [type='date'],
+    [type='datetime'],
+    [type='datetime-local'],
+    [type='month'],
+    [type='week'],
+    [type='email'],
+    [type='number'],
+    [type='search'],
+    [type='tel'],
+    [type='time'],
+    [type='url'],
+    [type='color'],
+    textarea {
+        font-size: 11px;
+    }
+    .sorae-booking-form input[type="submit"] {
+        padding: 12px 38px;
+        color: #111;
+        border: solid 1px #111;
+        font-size: 12px;
+    }
+    .homepage .home-bg-slider {
+        height: 266px !important;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .homepage .home-bg-slider {
+        height: 230px !important;
+    }
+}
+
+.contact-review .wpcf7-list-item {
+    background: #fff;
+    width: 120px;
+    height: 40px;
+    margin-right: 20px;
+    text-align: center;
+    align-items: center;
+    line-height: 40px;
+    color: #a12022;
+    border-radius: 5px;
+    border: 1px solid #a12022;
+    margin-left: 0px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.contact-review .wpcf7-list-item:hover,
+.contact-review .wpcf7-list-item.selected {
+    border: 1px solid #fff;
+    color: #fff;
+    background: #a12022;
+}
+
+.contact-review input {
+    position: absolute;
+    left: -100px;
+    display: none;
+}
+
+.contact-form-wrapper .widget ul li {
+    list-style: disc;
+}
+
+.contact-form-wrapper .widget ul {
+    padding-left: 20px;
+    margin-top: -15px;
+}
+
+.contact-form-wrapper iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.contact-form-wrapper .wpcf7-form-control-wrap:not(.cus-review):not(.cus-message) {
+    width: 50%;
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.contact-form-wrapper .wpcf7-form-control-wrap input {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #200b0a69;
+    text-align: left;
+}
+
+.contact-form-wrapper .wpcf7-form-control-wrap textarea {
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid #200b0a69;
+    text-align: left;
+}
+
+.contact-form-wrapper .wpcf7-form-control-wrap input::placeholder,
+.contact-form-wrapper .wpcf7-form-control-wrap textarea::placeholder {
+    color: #a21f22;
+}
+
+input.wpcf7-form-control.wpcf7-submit.contact-sent {
+    background: #a12022;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 5px;
+}
+
+input.wpcf7-form-control.wpcf7-submit.contact-sent:hover {
+    color: #000;
+    background: #fff;
+    border: 1px solid #000;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-form-wrapper iframe {
+        width: 100% !important;
+        height: 300px;
+    }
+    .contact-form-wrapper .wpcf7-form-control-wrap {
+        width: 100% !important;
+    }
+}
+
+.wpcf7-form-control-wrap.Number input::placeholder {
+    color: #000;
+}
+
+.footer-widget-1 ul {
+    margin-left: 0;
+}
+
+.footer-widget-1 ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer p {
+    margin-bottom: 10px;
+}
+
+.footer .widget {
+    margin-bottom: 30px;
+}
+
+.fixed_booking {
+    position: fixed;
+    right: 0px;
+    bottom: 140px;
+    z-index: 999999;
+}
+
+.fixed_booking a {
+    padding: 15px 15px;
+    background: #242424;
+    color: #fff !important;
+    border: 1px solid #fff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: 500ms all linear;
+}
+
+.fixed_booking a:hover {
+    background: #870000;
+    transition: 500ms all linear;
+    padding: 15px 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    .fixed_booking {
+        width: 100%;
+        bottom: 0px;
+    }
+    .fixed_booking a {
+        width: 100%;
+        width: 100%;
+        display: block;
+        text-align: center;
+        padding: 20px 0px;
+        border-radius: 0;
+    }
+    body {
+        padding-bottom: 30px;
+    }
+    .home-mobile-icon {
+        bottom: 42px;
+    }
+    .sorae-booking-form tr td {
+        width: 100%;
+        display: block;
+    }
+    .sorae-booking-form tr {
+        border: none;
+    }
+    .sorae-booking-form tr td input:not(.wpcf7-submit),
+    .sorae-booking-form tr td select,
+    .sorae-booking-form tr td textarea {
+        border-bottom: solid 1px #e8e8e8 !important;
+    }
+}
