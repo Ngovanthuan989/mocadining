@@ -89,4 +89,9 @@ class IntroduceController extends Controller
         }
         return view('admin.introduce.create');
     }
+
+    public function edit()
+    {
+        return view('admin.introduce.edit');
+    }
 }
