@@ -18,40 +18,36 @@
                                             <th>STT</th>
                                             <th>Tiêu đề</th>
                                             <th>Nội dung</th>
-                                            <th>Hình ảnh</th>
+                                            {{-- <th>Hình ảnh</th> --}}
                                             <th>Ngày tạo</th>
                                             <th>Trạng thái</th>
                                             <th>Tác vụ</th>
                                         </tr>
                                     </thead>
                                     <tbody id="content-body">
-                                        {{-- @foreach ($get_promotion as $get_promotions)
+                                        @foreach ($get_introduce as $get_introduces)
                                             <tr>
-                                                <td>{{$get_promotions->id}}</td>
-                                                <td>{{$get_promotions->title}}</td>
-                                                <td>{{$get_promotions->max_number}}</td>
-                                                <td>{{$get_promotions->min_amount}}</td>
-                                                <td>{{$get_promotions->max_amount}}</td>
-                                                <td>{{$get_promotions->percent}}</td>
-                                                <td>{{$get_promotions->betting_round}}</td>
-                                                <td>{{$get_promotions->sequence}}</td>
+                                                <td>{{$get_introduces->id}}</td>
+                                                <td>{{$get_introduces->title}}</td>
+                                                <td>{{$get_introduces->content}}</td>
                                                 <td>
-                                                    @if ($get_promotions->status == 1)Hoạt động @else vô hiệu hoá @endif
+                                                    @if ($get_introduces->status == 1) Hoạt động @else tắt @endif
                                                 </td>
-                                                <td>{{$get_promotions->time_start}}</td>
-                                                <td>{{$get_promotions->time_end}}</td>
-                                                <td>{{$get_promotions->created_at}}</td>
+                                                {{-- <td><img style=" width: 130px;
+                                                    height: 130px;
+                                                    border: none;" src="/uploads/Introduce/images/{{$get_introduces->image}}" alt="" /></td> --}}
+                                                <td>{{$get_introduces->created_at}}</td>
                                                 <td class="d-flex" style="gap: 10px">
-                                                    <a href="https://1368iii.com/admin/promotion/47/edit"
+                                                    <a href="/admin/introduce/{{$get_introduces->id}}/edit"
                                                         class="btn-success px-3"
                                                         style="border-radius:5px;display:flex;align-items: center;">Sửa</a>
-                                                    <a href="https://1368iii.com/admin/promotion/47/edit?locale=th"
+                                                    {{-- <a href="https://1368iii.com/admin/promotion/47/edit?locale=th"
                                                         class="btn-success px-3"
                                                         style="border-radius:5px;display:flex;align-items: center;">th</a>
                                                     <a href="https://1368iii.com/admin/promotion/47/edit?locale=vi"
                                                         class="btn-success px-3"
-                                                        style="border-radius:5px;display:flex;align-items: center;">vi</a>
-                                                    <form action="https://1368iii.com/admin/promotion/47" method="POST">
+                                                        style="border-radius:5px;display:flex;align-items: center;">vi</a> --}}
+                                                    <form action="/admin/introduce/{{$get_introduces->id}}" method="POST">
                                                         <input type="hidden" name="_token"
                                                             value="bZaLqCQlVReQKz3ogxzYGR316RSRvPrm8Ld7MQ4R"> <input
                                                             name="_method" type="hidden" value="DELETE">
@@ -59,7 +55,7 @@
                                                     </form>
                                                 </td>
                                             </tr>
-                                        @endforeach --}}
+                                        @endforeach
                                     </tbody>
                                 </table>
 

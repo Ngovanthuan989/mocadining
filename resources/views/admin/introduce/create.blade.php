@@ -7,7 +7,7 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Thêm giới thiệu</h4>
-                        <form action="/introduce/addPost" method="POST" enctype="multipart/form-data">
+                        <form action="/admin/introduce/addPost" method="POST" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group">
                                 <label for="title">Tiêu đề</label>
@@ -17,7 +17,7 @@
 
                             <div class="form-group">
                                 <label for="subtitle">Nội dung</label><br>
-                                <textarea style="background-color: #2A3038;color: #fff;width:100%" name="content" rows="10" id="my-editor"></textarea>
+                                <textarea name="content"></textarea>
                             </div>
 
                             <div class="form-group">
