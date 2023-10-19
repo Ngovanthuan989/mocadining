@@ -38,7 +38,7 @@
                                                     border: none;" src="/uploads/Introduce/images/{{$get_introduces->image}}" alt="" /></td> --}}
                                                 <td>{{$get_introduces->created_at}}</td>
                                                 <td class="d-flex" style="gap: 10px">
-                                                    <a href="/admin/introduce/{{$get_introduces->id}}/edit"
+                                                    <a href="/admin/introduce/edit/{{$get_introduces->id}}"
                                                         class="btn-success px-3"
                                                         style="border-radius:5px;display:flex;align-items: center;">Sửa</a>
                                                     {{-- <a href="https://1368iii.com/admin/promotion/47/edit?locale=th"

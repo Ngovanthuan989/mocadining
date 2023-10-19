@@ -90,8 +90,107 @@ class IntroduceController extends Controller
         return view('admin.introduce.create');
     }
 
-    public function edit()
+    public function edit($id)
     {
-        return view('admin.introduce.edit');
+        $edit_introduce = DB::table('introduce')->where([
+            'id'=> $id
+        ])->get();
+
+        return view('admin.introduce.edit',
+            ['edit_introduce'=>$edit_introduce[0]]
+        );
+    }
+
+    public function update(Request $request)
+    {
+        if ($request->file('image') != '') {
+            $path = public_path().'/uploads/Introduce/images/';
+
+            //upload new file
+            $file     =    $request -> file('image');
+            $filename =    $file    -> getClientOriginalName();
+            $file -> move($path, $filename);
+
+
+            $validate = Validator::make(
+
+                $request->all(),
+                [
+                    'title'     => 'required',
+                    'content'   => 'required',
+
+                ], [
+
+                    'title.required'     => 'Tiêu đề không được bỏ trống',
+                    'content.required'   => 'Nội dung không được bỏ trống'
+
+                ]
+
+            );
+
+
+            if ($validate -> fails()) {
+
+                return redirect()->route('admin.introduce.create')->withErrors($validate);
+
+            }
+
+
+            $introduce = Introduce::where('id', $request->get('id'))->update(array(
+                'title'       => $request->get('title'),
+                'content'     => $request->get('content'),
+                'image'  => $filename,
+                'status'      => $request->get('status'),
+            ));
+
+
+            if ($introduce == 1) {
+
+                return redirect()->route('admin.introduce.edit', ['id' => $request->get('id')])->with('success', 'Cập nhập introduce thành công');
+            } else {
+
+                return redirect()->route('admin.introduce.edit', ['id' => $request->get('id')])->with('error', 'Có lỗi xảy ra');
+            }
+        } else {
+
+            $validate = Validator::make(
+
+                $request->all(),
+                [
+                    'title'     => 'required',
+                    'content'   => 'required',
+
+                ], [
+
+                    'title.required'     => 'Tiêu đề không được bỏ trống',
+                    'content.required'   => 'Nội dung không được bỏ trống'
+
+                ]
+
+            );
+
+
+            if ($validate -> fails()) {
+
+                return redirect()->route('admin.introduce.create')->withErrors($validate);
+
+            }
+
+
+            $introduce = Introduce::where('id', $request->get('id'))->update(array(
+                'title'       => $request->get('title'),
+                'content'     => $request->get('content'),
+                'status'      => $request->get('status'),
+            ));
+
+
+            if ($introduce == 1) {
+
+                return redirect()->route('admin.introduce.edit', ['id' => $request->get('id')])->with('success', 'Cập nhập introduce thành công');
+            } else {
+
+                return redirect()->route('admin.introduce.edit', ['id' => $request->get('id')])->with('error', 'Có lỗi xảy ra');
+            }
+        }
     }
 }

@@ -7,32 +7,42 @@
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">Sửa giới thiệu</h4>
-                        <form action="/admin/introduce/addPost" method="POST" enctype="multipart/form-data">
+                        <form action="/admin/introduce/update" method="POST" enctype="multipart/form-data">
                             @csrf
+                            <input type="hidden" name="id" value="{{$edit_introduce->id}}">
                             <div class="form-group">
                                 <label for="title">Tiêu đề</label>
                                 <input type="text" name="title" class="form-control" id="title"
-                                    placeholder="Tiêu đề" value="" required>
+                                    placeholder="Tiêu đề" value="{{$edit_introduce->title}}" required>
                             </div>
 
                             <div class="form-group">
                                 <label for="subtitle">Nội dung</label><br>
-                                <textarea name="content"></textarea>
+                                <textarea name="content">{{$edit_introduce->content}}</textarea>
                             </div>
 
                             <div class="form-group">
                                 <label for="status">Trạng thái</label>
                                 <select class="form-control" name="status" id="status" required>
-                                    <option value="1">Hoạt động</option>
-                                    <option value="0">Tắt</option>
+                                    <option value="1"
+                                        @if($edit_introduce->status == 1)
+                                        selected
+                                        @endif>Hoạt động</option>
+                                    <option value="0"@if($edit_introduce->status != 1)
+                                        selected
+                                        @endif>Tắt</option>
                                 </select>
                             </div>
 
                             <div class="form-group">
                                 <label for="">Hình ảnh</label>
-                                <input type="file" name="image" id="image" class="form-control" required>
+                                <input type="file" name="image" id="image" class="form-control">
+                                <img style=" width: 130px;
+                                                    height: 130px;
+                                                    border: none;" src="/uploads/Introduce/images/{{$edit_introduce->image}}" alt="" />
+                                <img >
                             </div>
-                            <button type="submit" class="btn btn-primary mr-2">Tạo mới</button>
+                            <button type="submit" class="btn btn-primary mr-2">Chỉnh sửa</button>
                         </form>
                     </div>
                 </div>
