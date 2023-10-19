@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('vi.home.index');
 });
 
 
@@ -24,4 +24,28 @@ Route::group(['prefix' => 'vi'], function () {
     Route::get('/hinh-anh', 'Vi\HomeController@image')->name('vi.home.image');
     Route::get('/tin-tuc-uu-dai', 'Vi\HomeController@news')->name('vi.home.news');
     Route::get('/lien-he', 'Vi\HomeController@contact')->name('vi.home.contact');
+});
+
+
+Route::group(['middleware' => ['check.login']], function () {
+    Route::group(['prefix' => 'admin'], function () {
+        Route::get('/login', 'Admin\LoginController@login')->name('admin.login');
+        Route::post('/postLogin', 'Admin\LoginController@postLogin')->name('admin.postLogin');
+        Route::get('/logout', 'Admin\LoginController@logout')->name('admin.logout');
+    });
+});
+
+Route::group(['middleware' => ['check.logout']], function () {
+    Route::get('/admin/index', 'Admin\DashboardController@index')->name('admin.index');
+
+    Route::group(['prefix' => 'admin'], function () {
+        Route::group(['prefix' => 'introduce'], function () {
+            Route::get('/create', 'Admin\IntroduceController@create')->name('admin.introduce.create');
+            Route::get('/', 'Admin\IntroduceController@index')->name('admin.introduce.show');
+            Route::get('/edit/{id}', 'Admin\IntroduceController@edit')->name('admin.introduce.edit');
+            Route::post('/update', 'Admin\IntroduceController@update')->name('admin.introduce.update');
+            Route::post('/delete', 'Admin\IntroduceController@delete')->name('admin.introduce.delete');
+            Route::post('/addPost', 'Admin\IntroduceController@addPost')->name('admin.introduce.addPost');
+        });
+    });
 });
