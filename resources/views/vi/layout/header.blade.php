@@ -20,8 +20,8 @@
                 href="https://d1-concepts.com/dat-ban/">Đặt bàn</a></li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2311"><a
                 href="https://www.soraesushi.com/vi/lien-he/">Liên Hệ</a></li>
-        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1952"><a target="_blank"
-                href="https://d1-concepts.com/co-hoi-nghe-nghiep/">Nghề Nghiệp</a></li>
+        {{-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1952"><a target="_blank"
+                href="https://d1-concepts.com/co-hoi-nghe-nghiep/">Nghề Nghiệp</a></li> --}}
         {{-- <li
             class="lang-item lang-item-28 lang-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-1088-en">
             <a href="https://www.soraesushi.com/about-us/" hreflang="en-US" lang="en-US"><img

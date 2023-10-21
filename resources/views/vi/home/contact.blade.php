@@ -41,7 +41,7 @@
                                     </div>
                                     <div class="text-center page-header id_16530a6654e0db1101465077 animate-text ">
                                         <div style="color: #333333">
-                                            <h4>Gửi đến SORAE phản hồi của bạn</h4>
+                                            <h4>Gửi đến MOCADINING phản hồi của bạn</h4>
                                         </div>
                                     </div>
                                     <div class="custom-styles" data-styles=".id_16530a6654e0db1101465077 .post-meta li a, .id_16530a6654e0db1101465077 .post-meta { color: #333333 } .id_16530a6654e0db1101465077 .link-hover:after {background:#333333}"></div>
@@ -156,11 +156,11 @@
                                     <div class="wpb_text_column wpb_content_element  vc_custom_1615200671337">
                                         <div class="wpb_wrapper">
                                             <p>
-                                                SORAE SUSHI &amp;LOUNGE<br/>
-                                                Tầng 51, Bitexco Financial Tower, 2 Hải Triều, Phường Bến Nghé, Quận 1<br/>Đặt bàn: 02838 272 372 | 0938 687 689
+                                                MOCADINING<br/>
+                                                Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội<br/>Đặt bàn: 086 707 1068
                                             </p>
                                             <p>
-                                                Email: <a href="mailto:sorae@d1-concepts.com">sorae@d1-concepts.com</a>
+                                                Email: <a href="mailto:mocadining@gmail.com">mocadining@gmail.com</a>
                                                 <br/>
                                                 Giờ mở cửa: Trưa: 11:00 – 14:00<br/>Buổi tối: 18:00 – 00:00
                                             </p>
@@ -175,7 +175,7 @@
                                     <div class="wpb_gmaps_widget wpb_content_element">
                                         <div class="wpb_wrapper">
                                             <div class="wpb_map_wraper">
-                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.532766469472!2d106.6921703142894!3d10.770446992325528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f3e7ddd7ba5%3A0x733f2a9669171302!2sSorae+Restaurant+%26+Lounge!5e0!3m2!1svi!2s!4v1515142674170" width="600" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.089720235759!2d105.84727221159926!3d21.029095780539485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab950b0cc8d1%3A0x9de27096ab278ce9!2zMTQgUC4gTmjDoCBUaOG7nSwgSMOgbmcgVHLhu5FuZywgSG_DoG4gS2nhur9tLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1697900103013!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                             </div>
                                         </div>
                                     </div>

@@ -42,7 +42,7 @@
 
                                         <div class="wpb_text_column wpb_content_element  animate-text">
                                             <div class="wpb_wrapper">
-                                                <p>Sorae là một trong những nhà hàng Nhật Bản nổi tiếng tại đất Sài thành
+                                                <p>Mocadining là một trong những nhà hàng Nhật Bản nổi tiếng tại đất Sài thành
                                                     với phong cách ẩm thực truyền thống cùng các món ăn như sushi, sashimi
                                                     cũng như các món nướng yakitori … trứ danh từ các nguyên liệu tươi ngon
                                                     được đánh bắt tại Việt Nam hoặc vận chuyển trực tiếp từ chợ hải sản lừng
@@ -74,9 +74,9 @@
                                                 <div
                                                     class="vc_single_image-wrapper img-wrapper   vc_box_border_grey loaded-img">
                                                     <img width="2240" height="3360"
-                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/10/anh-thay-web-sorae.jpg"
+                                                        src="/mocadining.com/wp-content/uploads/2023/10/starter.jpeg"
                                                         class="vc_single_image-img attachment-full" alt=""
-                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/10/anh-thay-web-sorae.jpg 2240w, https://www.soraesushi.com/wp-content/uploads/2023/10/anh-thay-web-sorae-200x300.jpg 200w, https://www.soraesushi.com/wp-content/uploads/2023/10/anh-thay-web-sorae-768x1152.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/10/anh-thay-web-sorae-683x1024.jpg 683w"
+                                                        srcset="/mocadining.com/wp-content/uploads/2023/10/starter.jpeg 2240w, /mocadining.com/wp-content/uploads/2023/10/starter.jpeg 200w, /mocadining.com/wp-content/uploads/2023/10/starter.jpeg 768w, /mocadining.com/wp-content/uploads/2023/10/starter.jpeg 683w"
                                                         sizes="(max-width: 2240px) 100vw, 2240px"></div>
                                             </figure>
                                         </div>
@@ -96,9 +96,9 @@
                                             <figure class="wpb_wrapper vc_figure">
                                                 <div class="vc_single_image-wrapper img-wrapper   vc_box_border_grey"><img
                                                         width="1365" height="2048"
-                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/10/menu-trưa.jpg"
+                                                        src="/mocadining.com/wp-content/uploads/2023/10/vegetarian.jpeg"
                                                         class="vc_single_image-img attachment-full" alt=""
-                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/10/menu-trưa.jpg 1365w, https://www.soraesushi.com/wp-content/uploads/2023/10/menu-trưa-200x300.jpg 200w, https://www.soraesushi.com/wp-content/uploads/2023/10/menu-trưa-768x1152.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/10/menu-trưa-683x1024.jpg 683w"
+                                                        srcset="/mocadining.com/wp-content/uploads/2023/10/vegetarian.jpeg 1365w, /mocadining.com/wp-content/uploads/2023/10/vegetarian.jpeg 200w, /mocadining.com/wp-content/uploads/2023/10/vegetarian.jpeg 768w, /mocadining.com/wp-content/uploads/2023/10/vegetarian.jpeg 683w"
                                                         sizes="(max-width: 1365px) 100vw, 1365px"></div>
                                             </figure>
                                         </div>

@@ -128,13 +128,13 @@
                 </a>
             </div>
             <div class="content_right">
-                <a href="https://nhahangdimai.com/" target="_blank"><img
-                        src="https://www.soraesushi.com/wp-content/uploads/2018/02/logodimai.png" /></a>
-                <a href="https://www.soraesushi.com/" target="_blank"><img
+                {{-- <a href="https://nhahangdimai.com/" target="_blank"><img
+                        src="https://www.soraesushi.com/wp-content/uploads/2018/02/logodimai.png" /></a> --}}
+                <a href="/" target="_blank"><img
                         src="https://www.soraesushi.com/wp-content/uploads/2023/03/SORAE.png" /></a>
-                <a href="https://sanfulou.com/" target="_blank"><img
+                {{-- <a href="https://sanfulou.com/" target="_blank"><img
                         style="padding-left: 17px; width: 140px; position: relative; top: 45px;"
-                        src="https://www.soraesushi.com/wp-content/uploads/2018/02/logosanfulou.png" /></a>
+                        src="https://www.soraesushi.com/wp-content/uploads/2018/02/logosanfulou.png" /></a> --}}
             </div>
         </div>
     </div>
