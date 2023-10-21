@@ -692,12 +692,12 @@
                                         <a target="_blank" href="https://d1-concepts.com/co-hoi-nghe-nghiep/">Nghề
                                             Nghiệp</a>
                                     </li> --}}
-                                    <li id="menu-item-1088-en"
+                                    {{-- <li id="menu-item-1088-en"
                                         class="lang-item lang-item-28 lang-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-1088-en">
                                         <a href="https://www.soraesushi.com/" hreflang="en-US" lang="en-US"><img
                                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC"
                                                 title="EN" alt="EN" /></a>
-                                    </li>
+                                    </li> --}}
                                 </ul>
                             </div>
                         </div>
@@ -734,12 +734,12 @@
                     href="/vi/lien-he/">Liên Hệ</a></li>
             {{-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1952"><a target="_blank"
                     href="https://d1-concepts.com/co-hoi-nghe-nghiep/">Nghề Nghiệp</a></li> --}}
-            <li
+            {{-- <li
                 class="lang-item lang-item-28 lang-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-1088-en">
                 <a href="https://www.soraesushi.com/" hreflang="en-US" lang="en-US"><img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC"
                         title="EN" alt="EN" /></a>
-            </li>
+            </li> --}}
         </ul>
     </div>
 
@@ -853,8 +853,8 @@
 
                                         <div class="wpb_text_column wpb_content_element  vc_custom_1513757041814">
                                             <div class="wpb_wrapper">
-                                                <p style="text-align: center;">“Sorae” – Phía trên bầu trời, giống như
-                                                    chính tên gọi của mình, Sorae là một trong những nhà hàng Nhật Bản
+                                                <p style="text-align: center;">“Mocadining” – Phía trên bầu trời, giống như
+                                                    chính tên gọi của mình, Mocadining là một trong những nhà hàng Nhật Bản
                                                     có tầm nhìn ngoạn mục nhất và cũng là điểm đến lý tưởng nằm ngay
                                                     giữa trung tâm Sài Gòn.</p>
 
@@ -1173,7 +1173,7 @@
                                             </div>
                                         </div>
                                         <div class="text-center animate-text"><a
-                                                href="https://www.soraesushi.com/thuc-don/"
+                                                href="/vi/thuc-don/"
                                                 class="btn btn-sm btn-border-animate btn-dark   ">
                                                 <span class="btn-text ">Xem Thực Đơn<span
                                                         class="top button-border"></span>
@@ -1247,7 +1247,7 @@
                                             class="text-center page-header id_1652f7f678118d331102343 animate-text alt-h">
                                             <div style="color: #333333">
                                                 <h2>Đặt Bàn</h2>
-                                                <p>SORAE rất hân hạnh khi được phục vụ quý vị thực khách, và là nơi lưu
+                                                <p>Mocadining rất hân hạnh khi được phục vụ quý vị thực khách, và là nơi lưu
                                                     trữ những khoảnh khắc tuyệt vời của từng người.</p>
                                             </div>
                                         </div>
@@ -1263,7 +1263,7 @@
                                             <div class="large-12 columns">
                                                 <div class="vc_column-inner ">
                                                     <div class="wpb_wrapper">
-                                                        <div class="text-center animate-text"><a
+                                                        {{-- <div class="text-center animate-text"><a
                                                                 href="https://d1-concepts.com/dat-ban/"
                                                                 class="btn btn-sm btn-border-animate btn-dark   ">
                                                                 <span class="btn-text ">Đặt bàn<span
@@ -1276,7 +1276,7 @@
                                                                     <span
                                                                         class="bottom bottom-left button-border"></span>
                                                                     <span class="right button-border"></span></span>
-                                                            </a></div>
+                                                            </a></div> --}}
                                                         <div class="vc_empty_space">
                                                             <span class="vc_empty_space_inner"></span>
                                                             <div class="" style="height: 50px"></div>
@@ -1306,22 +1306,23 @@
             <div class="small-12 large-4 columns">
                 <div class="footer-content footer-widget-1">
                     <section id="text-16" class="widget widget_text">
-                        <h6 class="widget-title"><span>SORAE</span></h6>
+                        <h6 class="widget-title"><span>Mocadining</span></h6>
                         <div class="textwidget">
-                            <p>Tầng 51, Bitexco Financial Tower , 36 Hồ Tùng Mậu, Phường Bến Nghé, Quận 1, Tp HCM.</p>
+                            <p>Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội</p>
                             <ul>
-                                <li><a href="https://www.facebook.com/SoraeSushi/" target="_blank"
-                                        rel="noopener"><img
+                                <li><a href="https://www.facebook.com/Mocadining"><img
                                             src="https://sanfulou.com/wp-content/uploads/2018/01/facebook-logo-button.png"
                                             width="50" /></a></li>
                                 <li><a href="https://www.soraesushi.com/wp-content/uploads/2023/03/sorae.jpg"
                                         target="_blank" rel="noopener"><img class="alignnone"
                                             src="https://sanfulou.com/wp-content/uploads/2018/01/instagram-logo.png"
                                             alt="" width="50" height="256" /></a></li>
-                                <li><a href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d7152997-Reviews-Sorae_Restaurant_Lounge-Ho_Chi_Minh_City.html"
+                                <li>
+                                    {{-- <a href="https://www.tripadvisor.com.vn/Restaurant_Review-g293925-d7152997-Reviews-Sorae_Restaurant_Lounge-Ho_Chi_Minh_City.html"
                                         target="_blank" rel="noopener"><img
                                             src="https://sanfulou.com/wp-content/uploads/2018/01/tripadvisor-logotype.png"
-                                            width="50" /></a></li>
+                                            width="50" /></a> --}}
+                                        </li>
                             </ul>
                         </div>
                     </section>
@@ -1332,7 +1333,7 @@
                     <section id="text-17" class="widget widget_text">
                         <h6 class="widget-title"><span>Đặt bàn</span></h6>
                         <div class="textwidget">
-                            <p>Hotline: 02838272372</p>
+                            <p>Hotline: 0867071068</p>
                             <p>Opening hours:</p>
                             <p>Lunch: 11:00 &#8211; 14:00<br /> Dinner: 17:00 &#8211; 23:00</p>
                         </div>
@@ -1340,8 +1341,8 @@
                     <section id="text-19" class="widget widget_text">
                         <h6 class="widget-title"><span>Chăm sóc khách hàng</span></h6>
                         <div class="textwidget">
-                            <p>Hotline: 02838272372</p>
-                            <p>Email: sorae@d1-concepts.com</p>
+                            <p>Hotline: 0867071068</p>
+                            <p>Email: mocadining@gmail.com</p>
                             <p>&nbsp;</p>
                         </div>
                     </section>
@@ -1364,7 +1365,7 @@
                                         <input type="hidden" name="_wpcf7_container_post" value="0" />
                                     </div>
                                     <div class="sorea-newsletter">
-                                        Sign up for incentives from Sorae.</p>
+                                        Sign up for incentives from Mocadining.</p>
                                         <div><span class="wpcf7-form-control-wrap Name"><input type="text"
                                                     name="Name" value="" size="40"
                                                     class="wpcf7-form-control wpcf7-text" aria-invalid="false"
@@ -1426,8 +1427,7 @@
                     <a href="#" target="_blank" rel="noopener"><img
                             src="https://www.soraesushi.com/wp-content/uploads/2020/11/White-Logo-01.png" /></a>
                     <br>
-                    <br>Công ty Cổ Phần D1 CONCEPTS<br> 96-98-100 Trần Nguyên Đán, Phường 3, Quận Bình Thạnh, Thành Phố
-                    Hồ Chí Minh<br> Hotline : 0938 687 689 <br>
+                    <br>Công Ty THNH Bình Lý<br> Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội<br> Hotline : 086 707 1068 <br>
                     </a>
                 </div>
                 <div class="content_right">
