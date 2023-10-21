@@ -7,8 +7,7 @@
                     <div class="nav-wrapper">
                         <div class="nav-logo nav-logo-dark nav-class-1" style="opacity: 1;">
                             <a href="/vi/home-alt/" class="show-in-viewport">
-                                <img src="https://www.soraesushi.com/wp-content/uploads/2023/03/SORAE.png"
-                                    alt="">
+                                <img src="/mocadining.com/wp-content/uploads/2023/03/MOCADINING.png" alt="">
                             </a>
                         </div>
                         <div id="reorder-mobile" class="hide-for-large btn-mobile-overlay" style="">

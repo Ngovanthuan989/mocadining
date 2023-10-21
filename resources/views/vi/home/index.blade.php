@@ -636,7 +636,7 @@
                         <div class="nav-wrapper">
                             <div class="nav-logo nav-logo-dark nav-class-3">
                                 <a href="/vi/home-alt/" class="show-in-viewport">
-                                    <img src="https://www.soraesushi.com/wp-content/uploads/2023/03/SORAE.png"
+                                    <img src="/mocadining.com/wp-content/uploads/2023/03/MOCADINING.png"
                                         alt="" />
                                 </a>
                             </div>
@@ -713,8 +713,8 @@
     {{-- header --}}
     <div id="fixed-nav" class="page-header-nav fixed-nav show-for-large">
         <div class="nav-logo nav-logo-dark">
-            <a href="https://www.soraesushi.com/vi/home-alt/" class="show-in-viewport">
-                <img src="https://www.soraesushi.com/wp-content/uploads/2023/03/sorae.jpg" alt="" />
+            <a href="/vi/home-alt/" class="show-in-viewport">
+                <img src="/mocadining.com/wp-content/uploads/2023/03/MOCADINING.png" alt="">
             </a>
         </div>
         <ul id="fixed-top-menu" class="dropdown menu desktop-menu menu-main-menu">
@@ -1424,8 +1424,7 @@
         <div class="footer_bottom">
             <div class="footer2">
                 <div class="content_left">
-                    <a href="#" target="_blank" rel="noopener"><img
-                            src="https://www.soraesushi.com/wp-content/uploads/2020/11/White-Logo-01.png" /></a>
+                    <a href="#" target="_blank" rel="noopener"> <img src="/mocadining.com/wp-content/uploads/2023/03/MOCADINING.png" alt=""></a>
                     <br>
                     <br>Công Ty THNH Bình Lý<br> Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội<br> Hotline : 086 707 1068 <br>
                     </a>
@@ -1433,8 +1432,7 @@
                 <div class="content_right">
                     {{-- <a href="https://nhahangdimai.com/" target="_blank"><img
                             src="https://www.soraesushi.com/wp-content/uploads/2018/02/logodimai.png" /></a> --}}
-                    <a href="/" target="_blank"><img
-                            src="https://www.soraesushi.com/wp-content/uploads/2023/03/SORAE.png" /></a>
+                    {{-- <a href="/" target="_blank"> <img src="/mocadining.com/wp-content/uploads/2023/03/MOCADINING.png" alt=""></a> --}}
                     {{-- <a href="https://sanfulou.com/" target="_blank"><img
                             style="padding-left: 17px; width: 140px; position: relative; top: 45px;"
                             src="https://www.soraesushi.com/wp-content/uploads/2018/02/logosanfulou.png" /></a> --}}

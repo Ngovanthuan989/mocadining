@@ -1,7 +1,7 @@
 <div id="fixed-nav" class="page-header-nav fixed-nav show-for-large" style="height: 80px;">
     <div class="nav-logo nav-logo-dark" style="opacity: 1;">
-        <a href="https://www.soraesushi.com/vi/home-alt/" class="show-in-viewport">
-            <img src="https://www.soraesushi.com/wp-content/uploads/2023/03/sorae.jpg" alt="">
+        <a href="/vi/home-alt/" class="show-in-viewport">
+            <img src="/mocadining.com/wp-content/uploads/2023/03/MOCADINING.png" alt="">
         </a>
     </div>
     <ul id="fixed-top-menu" class="dropdown menu desktop-menu menu-main-menu">
