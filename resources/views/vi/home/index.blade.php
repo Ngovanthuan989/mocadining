@@ -259,7 +259,7 @@
 
         body,
         .page-wrapper {
-            background: #6E8149;
+            background: #fefefe;
         }
 
         .homepage .slider-text .slider-text-first,

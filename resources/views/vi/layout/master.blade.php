@@ -208,7 +208,7 @@
         body,
         .page-wrapper,
         .btn-no-active:before {
-            background: #6E8149;
+            background: #fefefe;
         }
 
         .fixed-nav {
