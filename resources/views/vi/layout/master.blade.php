@@ -11,9 +11,9 @@
     <link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
     {{-- <link rel="alternate" type="application/rss+xml" title="Dòng thông tin SORAE &raquo;"
-        href="https://www.soraesushi.com/vi/feed/" />
+        href="/mocadining.com/vi/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi SORAE &raquo;"
-        href="https://www.soraesushi.com/vi/comments/feed/" /> --}}
+        href="/mocadining.com/vi/comments/feed/" /> --}}
     <link rel='stylesheet' id='wp-block-library-css'
         href='{{ asset('/mocadining.com/wp-includes/css/dist/block-library/style.min.css') }}' type='text/css'
         media='all' />
@@ -343,16 +343,16 @@
     <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js') }}'>
     </script>
-    {{-- <link rel='https://api.w.org/' href='https://www.soraesushi.com/wp-json/' /> --}}
-    {{-- <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.soraesushi.com/xmlrpc.php?rsd" /> --}}
+    {{-- <link rel='https://api.w.org/' href='/mocadining.com/wp-json/' /> --}}
+    {{-- <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/mocadining.com/xmlrpc.php?rsd" /> --}}
     {{-- <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-        href="https://www.soraesushi.com/wp-includes/wlwmanifest.xml" />
-    <link rel="canonical" href="https://www.soraesushi.com/vi/home-alt/" />
-    <link rel='shortlink' href='https://www.soraesushi.com/' />
+        href="/mocadining.com/wp-includes/wlwmanifest.xml" />
+    <link rel="canonical" href="/mocadining.com/vi/home-alt/" />
+    <link rel='shortlink' href='/mocadining.com/' />
     <link rel="alternate" type="application/json+oembed"
-        href="https://www.soraesushi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.soraesushi.com%2Fvi%2Fhome-alt%2F" />
+        href="/mocadining.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.soraesushi.com%2Fvi%2Fhome-alt%2F" />
     <link rel="alternate" type="text/xml+oembed"
-        href="https://www.soraesushi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.soraesushi.com%2Fvi%2Fhome-alt%2F&#038;format=xml" /> --}}
+        href="/mocadining.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.soraesushi.com%2Fvi%2Fhome-alt%2F&#038;format=xml" /> --}}
     <link rel="alternate" href="/vi/home-alt/" hreflang="vi" />
     <link rel="alternate" href="/" hreflang="en" />
 
@@ -400,17 +400,17 @@
         }
     </style>
     <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
-    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.soraesushi.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/mocadining.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
     <meta name="generator"
         content="Powered by Slider Revolution 5.4.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <link rel="icon" href="https://www.soraesushi.com/wp-content/uploads/2023/03/cropped-sorae-32x32.jpg"
+    <link rel="icon" href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-32x32.jpg"
         sizes="32x32" />
-    <link rel="icon" href="https://www.soraesushi.com/wp-content/uploads/2023/03/cropped-sorae-192x192.jpg"
+    <link rel="icon" href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-192x192.jpg"
         sizes="192x192" />
     <link rel="apple-touch-icon-precomposed"
-        href="https://www.soraesushi.com/wp-content/uploads/2023/03/cropped-sorae-180x180.jpg" />
+        href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-180x180.jpg" />
     <meta name="msapplication-TileImage"
-        content="https://www.soraesushi.com/wp-content/uploads/2023/03/cropped-sorae-270x270.jpg" />
+        content="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-270x270.jpg" />
     <style type="text/css" data-type="vc_shortcodes-custom-css">
         .vc_custom_1516090843207 {
             padding-top: 90px !important;
@@ -589,7 +589,7 @@
                         href="https://d1-concepts.com/co-hoi-nghe-nghiep/">Nghề Nghiệp</a></li> --}}
                 {{-- <li
                     class="lang-item lang-item-28 lang-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-1088-en">
-                    <a href="https://www.soraesushi.com/" hreflang="en-US" lang="en-US"><img
+                    <a href="/mocadining.com/" hreflang="en-US" lang="en-US"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC"
                             title="EN" alt="EN" /></a>
                 </li> --}}
@@ -614,7 +614,7 @@
         <a href="https://d1-concepts.com/dat-ban/">Đặt Bàn</a>
     </div> --}}
     <script type='text/javascript'
-        src='https://www.soraesushi.com/wp-content/themes/marco/assets/js/jquery.datetimepicker.full.min.js'></script>
+        src='/mocadining.com/wp-content/themes/marco/assets/js/jquery.datetimepicker.full.min.js'></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".post-btn-more:lang(vi) a:contains('Read more')").html("Xem thêm");
@@ -788,7 +788,7 @@
     <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/contact-form-7/includes/js/scripts.js') }}'></script>
     {{-- <script type='text/javascript'>
-            var ajaxurl = 'https://www.soraesushi.com/wp-admin/admin-ajax.php';
+            var ajaxurl = '/mocadining.com/wp-admin/admin-ajax.php';
             var pageId = '661';
         </script> --}}
     <script type='text/javascript' src='{{ asset('/mocadining.com/wp-content/themes/marco/assets/js/libs.js') }}'></script>

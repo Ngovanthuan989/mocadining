@@ -36,9 +36,9 @@
                                             <figure class="wpb_wrapper vc_figure">
                                                 <div class="vc_single_image-wrapper img-wrapper   vc_box_border_grey"><img
                                                         width="4095" height="2730"
-                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/4.jpg"
+                                                        src="/mocadining.com/wp-content/uploads/2023/05/4.jpg"
                                                         class="vc_single_image-img attachment-full" alt=""
-                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/4.jpg 4095w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-300x200.jpg 300w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-768x512.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-1024x683.jpg 1024w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-680x454.jpg 680w"
+                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/4.jpg 4095w, /mocadining.com/wp-content/uploads/2023/05/4-300x200.jpg 300w, /mocadining.com/wp-content/uploads/2023/05/4-768x512.jpg 768w, /mocadining.com/wp-content/uploads/2023/05/4-1024x683.jpg 1024w, /mocadining.com/wp-content/uploads/2023/05/4-680x454.jpg 680w"
                                                         sizes="(max-width: 4095px) 100vw, 4095px"></div>
                                             </figure>
                                         </div>
@@ -77,9 +77,9 @@
                                             <figure class="wpb_wrapper vc_figure">
                                                 <div class="vc_single_image-wrapper img-wrapper   vc_box_border_grey"><img
                                                         width="4095" height="2730"
-                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/4.jpg"
+                                                        src="/mocadining.com/wp-content/uploads/2023/05/4.jpg"
                                                         class="vc_single_image-img attachment-full" alt=""
-                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/4.jpg 4095w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-300x200.jpg 300w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-768x512.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-1024x683.jpg 1024w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-680x454.jpg 680w"
+                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/4.jpg 4095w, /mocadining.com/wp-content/uploads/2023/05/4-300x200.jpg 300w, /mocadining.com/wp-content/uploads/2023/05/4-768x512.jpg 768w, /mocadining.com/wp-content/uploads/2023/05/4-1024x683.jpg 1024w, /mocadining.com/wp-content/uploads/2023/05/4-680x454.jpg 680w"
                                                         sizes="(max-width: 4095px) 100vw, 4095px"></div>
                                             </figure>
                                         </div>
@@ -118,9 +118,9 @@
                                             <figure class="wpb_wrapper vc_figure">
                                                 <div class="vc_single_image-wrapper img-wrapper   vc_box_border_grey"><img
                                                         width="4095" height="2730"
-                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/4.jpg"
+                                                        src="/mocadining.com/wp-content/uploads/2023/05/4.jpg"
                                                         class="vc_single_image-img attachment-full" alt=""
-                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/4.jpg 4095w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-300x200.jpg 300w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-768x512.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-1024x683.jpg 1024w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-680x454.jpg 680w"
+                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/4.jpg 4095w, /mocadining.com/wp-content/uploads/2023/05/4-300x200.jpg 300w, /mocadining.com/wp-content/uploads/2023/05/4-768x512.jpg 768w, /mocadining.com/wp-content/uploads/2023/05/4-1024x683.jpg 1024w, /mocadining.com/wp-content/uploads/2023/05/4-680x454.jpg 680w"
                                                         sizes="(max-width: 4095px) 100vw, 4095px"></div>
                                             </figure>
                                         </div>
@@ -159,9 +159,9 @@
                                             <figure class="wpb_wrapper vc_figure">
                                                 <div class="vc_single_image-wrapper img-wrapper   vc_box_border_grey"><img
                                                         width="4095" height="2730"
-                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/4.jpg"
+                                                        src="/mocadining.com/wp-content/uploads/2023/05/4.jpg"
                                                         class="vc_single_image-img attachment-full" alt=""
-                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/4.jpg 4095w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-300x200.jpg 300w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-768x512.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-1024x683.jpg 1024w, https://www.soraesushi.com/wp-content/uploads/2023/05/4-680x454.jpg 680w"
+                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/4.jpg 4095w, /mocadining.com/wp-content/uploads/2023/05/4-300x200.jpg 300w, /mocadining.com/wp-content/uploads/2023/05/4-768x512.jpg 768w, /mocadining.com/wp-content/uploads/2023/05/4-1024x683.jpg 1024w, /mocadining.com/wp-content/uploads/2023/05/4-680x454.jpg 680w"
                                                         sizes="(max-width: 4095px) 100vw, 4095px"></div>
                                             </figure>
                                         </div>

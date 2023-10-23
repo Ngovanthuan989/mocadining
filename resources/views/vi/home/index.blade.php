@@ -11,9 +11,9 @@
     <link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
     <link rel='dns-prefetch' href='//s.w.org' />
     {{-- <link rel="alternate" type="application/rss+xml" title="Dòng thông tin SORAE &raquo;"
-        href="https://www.soraesushi.com/vi/feed/" />
+        href="/mocadining.com/vi/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi SORAE &raquo;"
-        href="https://www.soraesushi.com/vi/comments/feed/" /> --}}
+        href="/mocadining.com/vi/comments/feed/" /> --}}
     <link rel='stylesheet' id='wp-block-library-css'
         href='{{ asset('/mocadining.com/wp-includes/css/dist/block-library/style.min.css') }}' type='text/css'
         media='all' />
@@ -411,16 +411,16 @@
     <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js') }}'>
     </script>
-    {{-- <link rel='https://api.w.org/' href='https://www.soraesushi.com/wp-json/' /> --}}
-    {{-- <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.soraesushi.com/xmlrpc.php?rsd" /> --}}
+    {{-- <link rel='https://api.w.org/' href='/mocadining.com/wp-json/' /> --}}
+    {{-- <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/mocadining.com/xmlrpc.php?rsd" /> --}}
     {{-- <link rel="wlwmanifest" type="application/wlwmanifest+xml"
-        href="https://www.soraesushi.com/wp-includes/wlwmanifest.xml" />
-    <link rel="canonical" href="https://www.soraesushi.com/vi/home-alt/" />
-    <link rel='shortlink' href='https://www.soraesushi.com/' />
+        href="/mocadining.com/wp-includes/wlwmanifest.xml" />
+    <link rel="canonical" href="/mocadining.com/vi/home-alt/" />
+    <link rel='shortlink' href='/mocadining.com/' />
     <link rel="alternate" type="application/json+oembed"
-        href="https://www.soraesushi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.soraesushi.com%2Fvi%2Fhome-alt%2F" />
+        href="/mocadining.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.soraesushi.com%2Fvi%2Fhome-alt%2F" />
     <link rel="alternate" type="text/xml+oembed"
-        href="https://www.soraesushi.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.soraesushi.com%2Fvi%2Fhome-alt%2F&#038;format=xml" /> --}}
+        href="/mocadining.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.soraesushi.com%2Fvi%2Fhome-alt%2F&#038;format=xml" /> --}}
     <link rel="alternate" href="/vi/home-alt/" hreflang="vi" />
     <link rel="alternate" href="/" hreflang="en" />
 
@@ -468,17 +468,17 @@
         }
     </style>
     <meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress." />
-    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="https://www.soraesushi.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
+    <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/mocadining.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
     <meta name="generator"
         content="Powered by Slider Revolution 5.4.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <link rel="icon" href="https://www.soraesushi.com/wp-content/uploads/2023/03/cropped-sorae-32x32.jpg"
+    <link rel="icon" href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-32x32.jpg"
         sizes="32x32" />
-    <link rel="icon" href="https://www.soraesushi.com/wp-content/uploads/2023/03/cropped-sorae-192x192.jpg"
+    <link rel="icon" href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-192x192.jpg"
         sizes="192x192" />
     <link rel="apple-touch-icon-precomposed"
-        href="https://www.soraesushi.com/wp-content/uploads/2023/03/cropped-sorae-180x180.jpg" />
+        href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-180x180.jpg" />
     <meta name="msapplication-TileImage"
-        content="https://www.soraesushi.com/wp-content/uploads/2023/03/cropped-sorae-270x270.jpg" />
+        content="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-270x270.jpg" />
     <style type="text/css" data-type="vc_shortcodes-custom-css">
         .vc_custom_1485243761347 {
             padding-top: 90px !important;
@@ -694,7 +694,7 @@
                                     </li> --}}
                                     {{-- <li id="menu-item-1088-en"
                                         class="lang-item lang-item-28 lang-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-1088-en">
-                                        <a href="https://www.soraesushi.com/" hreflang="en-US" lang="en-US"><img
+                                        <a href="/mocadining.com/" hreflang="en-US" lang="en-US"><img
                                                 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC"
                                                 title="EN" alt="EN" /></a>
                                     </li> --}}
@@ -736,7 +736,7 @@
                     href="https://d1-concepts.com/co-hoi-nghe-nghiep/">Nghề Nghiệp</a></li> --}}
             {{-- <li
                 class="lang-item lang-item-28 lang-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-1088-en">
-                <a href="https://www.soraesushi.com/" hreflang="en-US" lang="en-US"><img
+                <a href="/mocadining.com/" hreflang="en-US" lang="en-US"><img
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC"
                         title="EN" alt="EN" /></a>
             </li> --}}
@@ -777,7 +777,7 @@
                         href="https://d1-concepts.com/co-hoi-nghe-nghiep/">Nghề Nghiệp</a></li> --}}
                 {{-- <li
                     class="lang-item lang-item-28 lang-item-en menu-item menu-item-type-custom menu-item-object-custom menu-item-1088-en">
-                    <a href="https://www.soraesushi.com/" hreflang="en-US" lang="en-US"><img
+                    <a href="/mocadining.com/" hreflang="en-US" lang="en-US"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC"
                             title="EN" alt="EN" /></a>
                 </li> --}}
@@ -801,7 +801,7 @@
 
 
                     <span class="single-slide"
-                        data-slide="https://www.soraesushi.com/wp-content/uploads/2023/05/Ảnh-Sorae-thay-trên-web-1920x1080.png"></span>
+                        data-slide="/mocadining.com/wp-content/uploads/2023/05/Ảnh-Sorae-thay-trên-web-1920x1080.png"></span>
 
                 </div>
                 <div class="row home-content">
@@ -886,12 +886,12 @@
                                                             <figure class="wpb_wrapper vc_figure">
                                                                 <div
                                                                     class="vc_single_image-wrapper img-wrapper   vc_box_border_grey">
-                                                                    <img data-vc-zoom="https://www.soraesushi.com/wp-content/uploads/2023/05/7-681x1024.jpg"
+                                                                    <img data-vc-zoom="/mocadining.com/wp-content/uploads/2023/05/7-681x1024.jpg"
                                                                         width="2725" height="4095"
-                                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/7.jpg"
+                                                                        src="/mocadining.com/wp-content/uploads/2023/05/7.jpg"
                                                                         class="vc_single_image-img attachment-full"
                                                                         alt=""
-                                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/7.jpg 2725w, https://www.soraesushi.com/wp-content/uploads/2023/05/7-200x300.jpg 200w, https://www.soraesushi.com/wp-content/uploads/2023/05/7-768x1154.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/05/7-681x1024.jpg 681w"
+                                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/7.jpg 2725w, /mocadining.com/wp-content/uploads/2023/05/7-200x300.jpg 200w, /mocadining.com/wp-content/uploads/2023/05/7-768x1154.jpg 768w, /mocadining.com/wp-content/uploads/2023/05/7-681x1024.jpg 681w"
                                                                         sizes="(max-width: 2725px) 100vw, 2725px" />
                                                                 </div>
                                                             </figure>
@@ -908,12 +908,12 @@
                                                             <figure class="wpb_wrapper vc_figure">
                                                                 <div
                                                                     class="vc_single_image-wrapper img-wrapper   vc_box_border_grey">
-                                                                    <img data-vc-zoom="https://www.soraesushi.com/wp-content/uploads/2023/05/hp2-683x1024.jpg"
+                                                                    <img data-vc-zoom="/mocadining.com/wp-content/uploads/2023/05/hp2-683x1024.jpg"
                                                                         width="3347" height="5020"
-                                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/hp2.jpg"
+                                                                        src="/mocadining.com/wp-content/uploads/2023/05/hp2.jpg"
                                                                         class="vc_single_image-img attachment-full"
                                                                         alt=""
-                                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/hp2.jpg 3347w, https://www.soraesushi.com/wp-content/uploads/2023/05/hp2-200x300.jpg 200w, https://www.soraesushi.com/wp-content/uploads/2023/05/hp2-768x1152.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/05/hp2-683x1024.jpg 683w"
+                                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/hp2.jpg 3347w, /mocadining.com/wp-content/uploads/2023/05/hp2-200x300.jpg 200w, /mocadining.com/wp-content/uploads/2023/05/hp2-768x1152.jpg 768w /mocadining.com/wp-content/uploads/2023/05/hp2-683x1024.jpg 683w"
                                                                         sizes="(max-width: 3347px) 100vw, 3347px" />
                                                                 </div>
                                                             </figure>
@@ -938,7 +938,7 @@
                                             data-lg-height="530">
                                             <a class="mosaic-link" href="../gallery_item/excusive-event/">
                                                 <div class="mosaic-img"
-                                                    style="background-image: url(https://www.soraesushi.com/wp-content/uploads/2023/05/6-683x1024.jpg)">
+                                                    style="background-image: url(/mocadining.com/wp-content/uploads/2023/05/6-683x1024.jpg)">
                                                 </div>
                                                 <div class="mosaic-info" style="color: #ffffff">
 
@@ -960,7 +960,7 @@
                                             data-lg-height="300">
                                             <a class="mosaic-link" href="../thuc-don-trua/">
                                                 <div class="mosaic-img"
-                                                    style="background-image: url(https://www.soraesushi.com/wp-content/uploads/2023/05/7-681x1024.jpg)">
+                                                    style="background-image: url(/mocadining.com/wp-content/uploads/2023/05/7-681x1024.jpg)">
                                                 </div>
                                                 <div class="mosaic-info" style="color: #ffffff">
 
@@ -976,7 +976,7 @@
                                             data-lg-height="200">
                                             <div class="mosaic-link">
                                                 <div class="mosaic-img"
-                                                    style="background-image: url(https://www.soraesushi.com/wp-content/uploads/2023/05/2-1024x681.jpg)">
+                                                    style="background-image: url(/mocadining.com/wp-content/uploads/2023/05/2-1024x681.jpg)">
                                                 </div>
                                                 <div class="mosaic-info" style="color: #ffffff">
 
@@ -998,7 +998,7 @@
                                             data-lg-height="200">
                                             <div class="mosaic-link">
                                                 <div class="mosaic-img"
-                                                    style="background-image: url(https://www.soraesushi.com/wp-content/uploads/2023/05/8-683x1024.jpg)">
+                                                    style="background-image: url(/mocadining.com/wp-content/uploads/2023/05/8-683x1024.jpg)">
                                                 </div>
                                                 <div class="mosaic-info" style="color: #ffffff">
 
@@ -1014,7 +1014,7 @@
                                             data-lg-height="300">
                                             <a class="mosaic-link" href="../gallery_item/sorae-feature-touches/">
                                                 <div class="mosaic-img"
-                                                    style="background-image: url(https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1546-copy-1024x768.jpg)">
+                                                    style="background-image: url(/mocadining.com/wp-content/uploads/2023/05/SORAE1546-copy-1024x768.jpg)">
                                                 </div>
                                                 <div class="mosaic-info" style="color: #ffffff">
 
@@ -1036,7 +1036,7 @@
                                             data-lg-height="530">
                                             <a class="mosaic-link" href="../gallery_item/private-rooms/">
                                                 <div class="mosaic-img"
-                                                    style="background-image: url(https://www.soraesushi.com/wp-content/uploads/2023/05/9-683x1024.jpg)">
+                                                    style="background-image: url(/mocadining.com/wp-content/uploads/2023/05/9-683x1024.jpg)">
                                                 </div>
                                                 <div class="mosaic-info" style="color: #ffffff">
 
@@ -1070,12 +1070,12 @@
                                                             <figure class="wpb_wrapper vc_figure">
                                                                 <div
                                                                     class="vc_single_image-wrapper img-wrapper   vc_box_border_grey">
-                                                                    <img data-vc-zoom="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE0054-copy-767x1024.jpg"
+                                                                    <img data-vc-zoom="/mocadining.com/wp-content/uploads/2023/05/SORAE0054-copy-767x1024.jpg"
                                                                         width="6190" height="8264"
-                                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE0054-copy.jpg"
+                                                                        src="/mocadining.com/wp-content/uploads/2023/05/SORAE0054-copy.jpg"
                                                                         class="vc_single_image-img attachment-full"
                                                                         alt=""
-                                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE0054-copy.jpg 6190w, https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE0054-copy-225x300.jpg 225w, https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE0054-copy-768x1025.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE0054-copy-767x1024.jpg 767w"
+                                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/SORAE0054-copy.jpg 6190w, /mocadining.com/wp-content/uploads/2023/05/SORAE0054-copy-225x300.jpg 225w, /mocadining.com/wp-content/uploads/2023/05/SORAE0054-copy-768x1025.jpg 768w, /mocadining.com/wp-content/uploads/2023/05/SORAE0054-copy-767x1024.jpg 767w"
                                                                         sizes="(max-width: 6190px) 100vw, 6190px" />
                                                                 </div>
                                                             </figure>
@@ -1087,12 +1087,12 @@
                                                             <figure class="wpb_wrapper vc_figure">
                                                                 <div
                                                                     class="vc_single_image-wrapper img-wrapper   vc_box_border_grey">
-                                                                    <img data-vc-zoom="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1783-copy-792x1024.jpg"
+                                                                    <img data-vc-zoom="/mocadining.com/wp-content/uploads/2023/05/SORAE1783-copy-792x1024.jpg"
                                                                         width="5897" height="7629"
-                                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1783-copy.jpg"
+                                                                        src="/mocadining.com/wp-content/uploads/2023/05/SORAE1783-copy.jpg"
                                                                         class="vc_single_image-img attachment-full"
                                                                         alt=""
-                                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1783-copy.jpg 5897w, https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1783-copy-232x300.jpg 232w, https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1783-copy-768x994.jpg 768w, https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1783-copy-792x1024.jpg 792w"
+                                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/SORAE1783-copy.jpg 5897w, /mocadining.com/wp-content/uploads/2023/05/SORAE1783-copy-232x300.jpg 232w, /mocadining.com/wp-content/uploads/2023/05/SORAE1783-copy-768x994.jpg 768w, /mocadining.com/wp-content/uploads/2023/05/SORAE1783-copy-792x1024.jpg 792w"
                                                                         sizes="(max-width: 5897px) 100vw, 5897px" />
                                                                 </div>
                                                             </figure>
@@ -1109,12 +1109,12 @@
                                                             <figure class="wpb_wrapper vc_figure">
                                                                 <div
                                                                     class="vc_single_image-wrapper img-wrapper   vc_box_border_grey">
-                                                                    <img data-vc-zoom="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1284-copy-768x1024.jpg"
+                                                                    <img data-vc-zoom="/mocadining.com/wp-content/uploads/2023/05/SORAE1284-copy-768x1024.jpg"
                                                                         width="6156" height="8208"
-                                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1284-copy.jpg"
+                                                                        src="/mocadining.com/wp-content/uploads/2023/05/SORAE1284-copy.jpg"
                                                                         class="vc_single_image-img attachment-full"
                                                                         alt=""
-                                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1284-copy.jpg 6156w, https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1284-copy-225x300.jpg 225w, https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1284-copy-768x1024.jpg 768w"
+                                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/SORAE1284-copy.jpg 6156w, /mocadining.com/wp-content/uploads/2023/05/SORAE1284-copy-225x300.jpg 225w, /mocadining.com/wp-content/uploads/2023/05/SORAE1284-copy-768x1024.jpg 768w"
                                                                         sizes="(max-width: 6156px) 100vw, 6156px" />
                                                                 </div>
                                                             </figure>
@@ -1126,12 +1126,12 @@
                                                             <figure class="wpb_wrapper vc_figure">
                                                                 <div
                                                                     class="vc_single_image-wrapper img-wrapper   vc_box_border_grey">
-                                                                    <img data-vc-zoom="https://www.soraesushi.com/wp-content/uploads/2023/05/5-768x1024.jpg"
+                                                                    <img data-vc-zoom="/mocadining.com/wp-content/uploads/2023/05/5-768x1024.jpg"
                                                                         width="6192" height="8256"
-                                                                        src="https://www.soraesushi.com/wp-content/uploads/2023/05/5.jpg"
+                                                                        src="/mocadining.com/wp-content/uploads/2023/05/5.jpg"
                                                                         class="vc_single_image-img attachment-full"
                                                                         alt=""
-                                                                        srcset="https://www.soraesushi.com/wp-content/uploads/2023/05/5.jpg 6192w, https://www.soraesushi.com/wp-content/uploads/2023/05/5-225x300.jpg 225w, https://www.soraesushi.com/wp-content/uploads/2023/05/5-768x1024.jpg 768w"
+                                                                        srcset="/mocadining.com/wp-content/uploads/2023/05/5.jpg 6192w, /mocadining.com/wp-content/uploads/2023/05/5-225x300.jpg 225w, /mocadining.com/wp-content/uploads/2023/05/5-768x1024.jpg 768w"
                                                                         sizes="(max-width: 6192px) 100vw, 6192px" />
                                                                 </div>
                                                             </figure>
@@ -1197,7 +1197,7 @@
                     </div>
                     <div data-vc-full-width="true" data-vc-full-width-init="false" class="row-wrapper full-row ">
                         <div data-marco-parallax="0.5"
-                            style="background-image: url(https://www.soraesushi.com/wp-content/uploads/2017/02/Sakura-Room-1920x1080.jpg)"
+                            style="background-image: url(/mocadining.com/wp-content/uploads/2017/02/Sakura-Room-1920x1080.jpg)"
                             class="marco-parallax">
                             <div class="row-image-overlay" style="background-color: rgba(0,0,0,0.58)"></div>
                         </div>
@@ -1313,7 +1313,7 @@
                                 <li><a href="https://www.facebook.com/Mocadining"><img
                                             src="https://sanfulou.com/wp-content/uploads/2018/01/facebook-logo-button.png"
                                             width="50" /></a></li>
-                                <li><a href="https://www.soraesushi.com/wp-content/uploads/2023/03/sorae.jpg"
+                                <li><a href="/mocadining.com/wp-content/uploads/2023/03/sorae.jpg"
                                         target="_blank" rel="noopener"><img class="alignnone"
                                             src="https://sanfulou.com/wp-content/uploads/2018/01/instagram-logo.png"
                                             alt="" width="50" height="256" /></a></li>
@@ -1431,11 +1431,11 @@
                 </div>
                 <div class="content_right">
                     {{-- <a href="https://nhahangdimai.com/" target="_blank"><img
-                            src="https://www.soraesushi.com/wp-content/uploads/2018/02/logodimai.png" /></a> --}}
+                            src="/mocadining.com/wp-content/uploads/2018/02/logodimai.png" /></a> --}}
                     {{-- <a href="/" target="_blank"> <img src="/mocadining.com/wp-content/uploads/2023/03/MOCADINING.png" alt=""></a> --}}
                     {{-- <a href="https://sanfulou.com/" target="_blank"><img
                             style="padding-left: 17px; width: 140px; position: relative; top: 45px;"
-                            src="https://www.soraesushi.com/wp-content/uploads/2018/02/logosanfulou.png" /></a> --}}
+                            src="/mocadining.com/wp-content/uploads/2018/02/logosanfulou.png" /></a> --}}
                 </div>
             </div>
         </div>
@@ -1447,7 +1447,7 @@
         <a href="https://d1-concepts.com/dat-ban/">Đặt Bàn</a>
     </div> --}}
     <script type='text/javascript'
-        src='https://www.soraesushi.com/wp-content/themes/marco/assets/js/jquery.datetimepicker.full.min.js'></script>
+        src='/mocadining.com/wp-content/themes/marco/assets/js/jquery.datetimepicker.full.min.js'></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
             $(".post-btn-more:lang(vi) a:contains('Read more')").html("Xem thêm");
@@ -1621,7 +1621,7 @@
     <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/contact-form-7/includes/js/scripts.js') }}'></script>
     {{-- <script type='text/javascript'>
-            var ajaxurl = 'https://www.soraesushi.com/wp-admin/admin-ajax.php';
+            var ajaxurl = '/mocadining.com/wp-admin/admin-ajax.php';
             var pageId = '661';
         </script> --}}
     <script type='text/javascript' src='{{ asset('/mocadining.com/wp-content/themes/marco/assets/js/libs.js') }}'></script>
