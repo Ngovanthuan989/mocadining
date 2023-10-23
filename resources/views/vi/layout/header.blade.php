@@ -7,19 +7,19 @@
     <ul id="fixed-top-menu" class="dropdown menu desktop-menu menu-main-menu">
         <li
             class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item menu-item-21">
-            <a href="https://www.soraesushi.com/vi/gioi-thieu/" aria-current="page">Giới Thiệu</a></li>
+            <a href="/vi/gioi-thieu/" aria-current="page">Giới Thiệu</a></li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2560"><a
-                href="https://www.soraesushi.com/vi/thuc-don/">Thực Đơn</a></li>
+                href="/vi/thuc-don/">Thực Đơn</a></li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1459"><a
-                href="https://www.soraesushi.com/vi/events-2/">Events</a></li>
+                href="/vi/events-2/">Events</a></li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-851"><a
-                href="https://www.soraesushi.com/vi/hinh-anh/">Hình Ảnh</a></li>
+                href="/vi/hinh-anh/">Hình Ảnh</a></li>
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2634"><a
-                href="https://www.soraesushi.com/vi/tin-tuc-uu-dai/">Tin tức &amp; Khuyến Mãi</a></li>
-        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2302"><a target="_blank"
-                href="https://d1-concepts.com/dat-ban/">Đặt bàn</a></li>
+                href="/vi/tin-tuc-uu-dai/">Tin tức & Khuyến Mãi</a></li>
+        {{-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2302"><a target="_blank"
+                href="https://d1-concepts.com/dat-ban/">Đặt bàn</a></li> --}}
         <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2311"><a
-                href="https://www.soraesushi.com/vi/lien-he/">Liên Hệ</a></li>
+                href="/vi/lien-he/">Liên Hệ</a></li>
         {{-- <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1952"><a target="_blank"
                 href="https://d1-concepts.com/co-hoi-nghe-nghiep/">Nghề Nghiệp</a></li> --}}
         {{-- <li

@@ -221,7 +221,7 @@
         }
 
         .fixed-nav {
-            background: #0a0a0a;
+            background: #0d2527;
         }
 
         .fixed-nav>ul>li>a {
@@ -259,7 +259,7 @@
 
         body,
         .page-wrapper {
-            background: #fefefe;
+            background: #6E8149;
         }
 
         .homepage .slider-text .slider-text-first,

@@ -31,7 +31,7 @@
         media='all' />
     <style id='marco-main-stylesheet-inline-css' type='text/css'>
         .main-navigation {
-            background-color: #0a0a0a;
+            background-color: #0d2527;
         }
 
         .nav-dark-text .desktop-menu .main-navigation,
@@ -208,11 +208,11 @@
         body,
         .page-wrapper,
         .btn-no-active:before {
-            background: #fefefe;
+            background: #6E8149;
         }
 
         .fixed-nav {
-            background: #0a0a0a;
+            background: #0d2527;
         }
 
         .fixed-nav>ul>li>a {
