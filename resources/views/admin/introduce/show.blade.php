@@ -47,10 +47,10 @@
                                                     <a href="https://1368iii.com/admin/promotion/47/edit?locale=vi"
                                                         class="btn-success px-3"
                                                         style="border-radius:5px;display:flex;align-items: center;">vi</a> --}}
-                                                    <form action="/admin/introduce/{{$get_introduces->id}}" method="POST">
-                                                        <input type="hidden" name="_token"
-                                                            value="bZaLqCQlVReQKz3ogxzYGR316RSRvPrm8Ld7MQ4R"> <input
-                                                            name="_method" type="hidden" value="DELETE">
+                                                    <form action="/admin/introduce/delete" method="POST">
+                                                        @csrf
+                                                         <input
+                                                            name="id" type="hidden" value="{{$get_introduces->id}}">
                                                         <button type="submit" class="btn btn-danger">Xóa</button>
                                                     </form>
                                                 </td>

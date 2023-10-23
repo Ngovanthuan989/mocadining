@@ -78,10 +78,10 @@
         <!-- partial:partials/_sidebar.html -->
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
             <div class="sidebar-brand-wrapper d-none d-lg-flex align-items-center justify-content-center fixed-top">
-                <a class="sidebar-brand brand-logo" href="https://1368iii.com/admin/dashboard"><img
-                        style="height: 56px;" src="https://1368iii.com/storage/1716/NANI88-01.png" alt="logo" /></a>
+                <a class="sidebar-brand brand-logo" href="/admin/index"><img
+                        style="height: 56px;" src="/admin/storage/1716/MOCADINING.png" alt="logo" /></a>
                 <a class="sidebar-brand brand-logo-mini" href="index.html"><img
-                        src="https://1368iii.com/storage/1716/NANI88-01.png" alt="logo" /></a>
+                    src="/admin/storage/1716/MOCADINING.png" alt="logo" /></a>
             </div>
 
             @include('admin.layout.nav')

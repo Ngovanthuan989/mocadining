@@ -193,4 +193,15 @@ class IntroduceController extends Controller
             }
         }
     }
+
+    public function delete(Request $request)
+    {
+        $delete = DB::table('introduce')->where('id', $request->get('id'))->delete();
+
+        if ($delete == 1) {
+            return redirect()->route('admin.introduce.show')->with('success', 'Xoá introduce thành công!');
+        } else {
+            return redirect()->route('admin.introduce.show')->with('error', 'Xoá introduce không thành công!');
+        }
+    }
 }
