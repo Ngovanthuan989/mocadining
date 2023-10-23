@@ -24,6 +24,13 @@ Route::group(['prefix' => 'vi'], function () {
     Route::get('/hinh-anh', 'Vi\HomeController@image')->name('vi.home.image');
     Route::get('/tin-tuc-uu-dai', 'Vi\HomeController@news')->name('vi.home.news');
     Route::get('/lien-he', 'Vi\HomeController@contact')->name('vi.home.contact');
+
+    Route::group(['prefix' => 'gallery_item'], function () {
+        Route::get('/sorae-feature-touches', 'Vi\GalleryItemController@soraeFeatureTouches')->name('vi.gallery_item.sorae_feature_touches');
+        Route::get('/private-rooms', 'Vi\GalleryItemController@privateRooms')->name('vi.gallery_item.private_rooms');
+        Route::get('/excusive-event', 'Vi\GalleryItemController@excusiveEvent')->name('vi.gallery_item.excusive_event');
+
+    });
 });
 
 
