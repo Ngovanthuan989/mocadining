@@ -4,7 +4,7 @@
             <div class="profile-pic">
                 <div class="count-indicator">
                     <img class="img-xs rounded-circle "
-                        src="https://1368iii.com/admin/images/faces/face15.jpg" alt="">
+                        src="/admin/images/faces/face15.jpg" alt="">
                     <span class="count bg-success"></span>
                 </div>
                 <div class="profile-name">
@@ -77,47 +77,47 @@
         <div class="collapse" id="page">
             <ul class="nav flex-column sub-menu">
                 <li class="nav-item"><a class="nav-link"
-                        href="https://1368iii.com/admin/page/general">Tùy chỉnh
+                        href="/admin/page/general">Tùy chỉnh
                         trang</a></li>
             </ul>
             <ul class="nav flex-column sub-menu">
                 <li class="nav-item"><a class="nav-link"
-                        href="https://1368iii.com/admin/page/footer">Chân
+                        href="/admin/page/footer">Chân
                         trang</a></li>
             </ul>
             <ul class="nav flex-column sub-menu">
                 <li class="nav-item"><a class="nav-link"
-                        href="https://1368iii.com/admin/page/index">Trang
+                        href="/admin/page/index">Trang
                         chủ</a></li>
             </ul>
             <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="https://1368iii.com/admin/page/bank">Quản
+                <li class="nav-item"><a class="nav-link" href="/admin/page/bank">Quản
                         lí ngân hàng</a></li>
             </ul>
             <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="https://1368iii.com/admin/slider">Quản
+                <li class="nav-item"><a class="nav-link" href="/admin/slider">Quản
                         lý
                         Banner</a></li>
             </ul>
             <ul class="nav flex-column sub-menu">
                 <li class="nav-item"><a class="nav-link"
-                        href="https://1368iii.com/admin/notification">Quản lý
+                        href="/admin/notification">Quản lý
                         thông báo</a></li>
             </ul>
             <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="https://1368iii.com/admin/ads">Quản lý
+                <li class="nav-item"><a class="nav-link" href="/admin/ads">Quản lý
                         quảng
                         cáo</a></li>
             </ul>
             <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="https://1368iii.com/admin/spin">Quản lý
+                <li class="nav-item"><a class="nav-link" href="/admin/spin">Quản lý
                         vòng
                         quay</a></li>
             </ul>
         </div>
     </li> --}}
     {{-- <li class="nav-item menu-items">
-        <a class="nav-link" href="https://1368iii.com/admin/user">
+        <a class="nav-link" href="/admin/user">
             <span class="menu-icon">
                 <i class="mdi mdi-history"></i>
             </span>
@@ -125,7 +125,7 @@
         </a>
     </li>
     <li class="nav-item menu-items">
-        <a class="nav-link" href="https://1368iii.com/admin/role">
+        <a class="nav-link" href="/admin/role">
             <span class="menu-icon">
                 <i class="mdi mdi-history"></i>
             </span>
@@ -133,7 +133,7 @@
         </a>
     </li>
     <li class="nav-item menu-items">
-        <a class="nav-link" href="https://1368iii.com/admin/range">
+        <a class="nav-link" href="/admin/range">
             <span class="menu-icon">
                 <i class="mdi mdi-laptop"></i>
             </span>

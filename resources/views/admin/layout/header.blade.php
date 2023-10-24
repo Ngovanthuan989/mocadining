@@ -1,7 +1,7 @@
 <nav class="navbar p-0 fixed-top d-flex flex-row">
     <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
         <a class="navbar-brand brand-logo-mini" href="#"><img style="width:unset;"
-                src="https://1368iii.com/storage/1716/NANI88-01.png" alt="logo" /></a>
+                src="/storage/1716/NANI88-01.png" alt="logo" /></a>
     </div>
     <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
         <button class="navbar-toggler navbar-toggler align-self-center" type="button"
@@ -66,7 +66,7 @@
                 <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
                     <div class="navbar-profile">
                         <img class="img-xs rounded-circle"
-                            src="https://1368iii.com/admin/images/faces/face15.jpg" alt="">
+                            src="/admin/images/faces/face15.jpg" alt="">
                         <p class="mb-0 d-none d-sm-block navbar-profile-name">Admin</p>
                         <i class="mdi mdi-menu-down d-none d-sm-block"></i>
                     </div>

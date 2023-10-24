@@ -41,10 +41,10 @@
                                                     <a href="/admin/introduce/edit/{{$get_introduces->id}}"
                                                         class="btn-success px-3"
                                                         style="border-radius:5px;display:flex;align-items: center;">Sửa</a>
-                                                    {{-- <a href="https://1368iii.com/admin/promotion/47/edit?locale=th"
+                                                    {{-- <a href="/admin/promotion/47/edit?locale=th"
                                                         class="btn-success px-3"
                                                         style="border-radius:5px;display:flex;align-items: center;">th</a>
-                                                    <a href="https://1368iii.com/admin/promotion/47/edit?locale=vi"
+                                                    <a href="/admin/promotion/47/edit?locale=vi"
                                                         class="btn-success px-3"
                                                         style="border-radius:5px;display:flex;align-items: center;">vi</a> --}}
                                                     <form action="/admin/introduce/delete" method="POST">
