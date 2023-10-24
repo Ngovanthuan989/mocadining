@@ -17,7 +17,7 @@
 
                             <div class="form-group">
                                 <label for="subtitle">Mô tả thực đơn</label><br>
-                                <textarea name="content" rows="10" id="my-editor"></textarea>
+                                <textarea name="describe" rows="10" id="my-editor"></textarea>
                             </div>
 
                             <div class="form-group">
