@@ -17,7 +17,7 @@
 
                             <div class="form-group">
                                 <label for="subtitle">Nội dung</label><br>
-                                <textarea name="content"></textarea>
+                                <textarea name="content" id="my-editor"></textarea>
                             </div>
 
                             <div class="form-group">

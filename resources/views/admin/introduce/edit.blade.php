@@ -18,7 +18,7 @@
 
                             <div class="form-group">
                                 <label for="subtitle">Nội dung</label><br>
-                                <textarea name="content">{{$edit_introduce->content}}</textarea>
+                                <textarea name="content" id="my-editor">{{$edit_introduce->content}}</textarea>
                             </div>
 
                             <div class="form-group">
