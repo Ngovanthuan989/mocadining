@@ -144,7 +144,7 @@
             }
         });
     </script>
-    <script src="//cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
+    {{-- <script src="https://cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script> --}}
 
     <script src="/vendor/laravel-filemanager/js/stand-alone-button.js"></script>
     <script src="https://cdn.tiny.cloud/1/ra07npuj7d7sgobqeryn7lhveuqea3xducm3snej7xlzsmpp/tinymce/4/tinymce.min.js"
