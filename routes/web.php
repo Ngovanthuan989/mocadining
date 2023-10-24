@@ -54,5 +54,14 @@ Route::group(['middleware' => ['check.logout']], function () {
             Route::post('/delete', 'Admin\IntroduceController@delete')->name('admin.introduce.delete');
             Route::post('/addPost', 'Admin\IntroduceController@addPost')->name('admin.introduce.addPost');
         });
+
+        Route::group(['prefix' => 'menu'], function () {
+            Route::get('/create', 'Admin\MenuController@create')->name('admin.menu.create');
+            Route::get('/', 'Admin\MenuController@index')->name('admin.menu.show');
+            Route::get('/edit/{id}', 'Admin\MenuController@edit')->name('admin.menu.edit');
+            Route::post('/update', 'Admin\MenuController@update')->name('admin.menu.update');
+            Route::post('/delete', 'Admin\MenuController@delete')->name('admin.menu.delete');
+            Route::post('/addPost', 'Admin\MenuController@addPost')->name('admin.menu.addPost');
+        });
     });
 });

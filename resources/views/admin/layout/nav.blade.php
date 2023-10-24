@@ -47,6 +47,23 @@
         </div>
     </li>
 
+    <li class="nav-item menu-items">
+        <a class="nav-link" data-toggle="collapse" href="#menu" aria-expanded="false"
+            aria-controls="page">
+            <span class="menu-icon">
+                <i class="mdi mdi-history"></i>
+            </span>
+            <span class="menu-title">Quản lý thực đơn</span>
+            <i class="menu-arrow"></i>
+        </a>
+        <div class="collapse" id="menu">
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"><a class="nav-link"
+                        href="/admin/menu">Thực đơn</a></li>
+            </ul>
+        </div>
+    </li>
+
 
     {{-- <li class="nav-item menu-items">
         <a class="nav-link" data-toggle="collapse" href="#page" aria-expanded="false"
