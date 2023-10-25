@@ -307,4 +307,15 @@ class MenuController extends Controller
             }
         }
     }
+
+    public function delete(Request $request)
+    {
+        $delete = DB::table('menu')->where('id', $request->get('id'))->delete();
+
+        if ($delete == 1) {
+            return redirect()->route('admin.menu.show')->with('success', 'Xoá thực đơn thành công!');
+        } else {
+            return redirect()->route('admin.menu.show')->with('error', 'Xoá thực đơn không thành công!');
+        }
+    }
 }
