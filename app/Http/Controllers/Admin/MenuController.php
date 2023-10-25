@@ -155,7 +155,7 @@ class MenuController extends Controller
 
             $menu = Menu::where('id', $request->get('id'))->update(array(
                 'title'       => $request->get('title'),
-                'describe'    => $request->get('describe'),
+                'describe'    => strip_tags($request->get('describe')),
                 'image'       => $filename,
                 'pdfMenu'     => $filenamePdf,
                 'status'      => $request->get('status'),
@@ -204,7 +204,7 @@ class MenuController extends Controller
 
             $menu = Menu::where('id', $request->get('id'))->update(array(
                 'title'       => $request->get('title'),
-                'describe'    => $request->get('describe'),
+                'describe'    => strip_tags($request->get('describe')),
                 'image'       => $filename,
                 'status'      => $request->get('status'),
             ));
@@ -252,7 +252,7 @@ class MenuController extends Controller
 
             $menu = Menu::where('id', $request->get('id'))->update(array(
                 'title'       => $request->get('title'),
-                'describe'    => $request->get('describe'),
+                'describe'    => strip_tags($request->get('describe')),
                 'status'      => $request->get('status'),
                 'pdfMenu'     => $filenamePdf,
             ));
@@ -293,7 +293,7 @@ class MenuController extends Controller
 
             $menu = Menu::where('id', $request->get('id'))->update(array(
                 'title'       => $request->get('title'),
-                'describe'    => $request->get('describe'),
+                'describe'    => strip_tags($request->get('describe')),
                 'status'      => $request->get('status'),
             ));
 

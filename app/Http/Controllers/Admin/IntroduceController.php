@@ -138,8 +138,8 @@ class IntroduceController extends Controller
 
             $introduce = Introduce::where('id', $request->get('id'))->update(array(
                 'title'       => $request->get('title'),
-                'content'     => $request->get('content'),
-                'image'  => $filename,
+                'content'     => strip_tags($request->get('content')),
+                'image'       => $filename,
                 'status'      => $request->get('status'),
             ));
 
