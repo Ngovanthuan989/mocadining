@@ -63,5 +63,14 @@ Route::group(['middleware' => ['check.logout']], function () {
             Route::post('/delete', 'Admin\MenuController@delete')->name('admin.menu.delete');
             Route::post('/addPost', 'Admin\MenuController@addPost')->name('admin.menu.addPost');
         });
+
+        Route::group(['prefix' => 'event'], function () {
+            Route::get('/create', 'Admin\EventController@create')->name('admin.event.create');
+            Route::get('/', 'Admin\EventController@index')->name('admin.event.show');
+            Route::get('/edit/{id}', 'Admin\EventController@edit')->name('admin.event.edit');
+            Route::post('/update', 'Admin\EventController@update')->name('admin.event.update');
+            Route::post('/delete', 'Admin\EventController@delete')->name('admin.event.delete');
+            Route::post('/addPost', 'Admin\EventController@addPost')->name('admin.event.addPost');
+        });
     });
 });

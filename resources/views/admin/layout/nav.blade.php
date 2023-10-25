@@ -64,6 +64,23 @@
         </div>
     </li>
 
+    <li class="nav-item menu-items">
+        <a class="nav-link" data-toggle="collapse" href="#event" aria-expanded="false"
+            aria-controls="page">
+            <span class="menu-icon">
+                <i class="mdi mdi-history"></i>
+            </span>
+            <span class="menu-title">Quản lý sự kiện</span>
+            <i class="menu-arrow"></i>
+        </a>
+        <div class="collapse" id="event">
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"><a class="nav-link"
+                        href="/admin/event">Sự kiện</a></li>
+            </ul>
+        </div>
+    </li>
+
 
     {{-- <li class="nav-item menu-items">
         <a class="nav-link" data-toggle="collapse" href="#page" aria-expanded="false"

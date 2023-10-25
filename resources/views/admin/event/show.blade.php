@@ -8,8 +8,8 @@
                 <div class="col-lg-12 grid-margin stretch-card">
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="card-title">Danh sách giới thiệu</h4>
-                            <a href="/admin/introduce/create" class="btn btn-success p-2 px-5 mb-3">Thêm
+                            <h4 class="card-title">Danh sách sự kiện</h4>
+                            <a href="/admin/event/create" class="btn btn-success p-2 px-5 mb-3">Thêm
                                 mới</a>
                             <div class="table-responsive">
                                 <table class="table">
@@ -17,7 +17,7 @@
                                         <tr>
                                             <th>STT</th>
                                             <th>Tiêu đề</th>
-                                            <th>Nội dung</th>
+                                            {{-- <th>Nội dung</th> --}}
                                             {{-- <th>Hình ảnh</th> --}}
                                             <th>Trạng thái</th>
                                             <th>Ngày tạo</th>
@@ -25,20 +25,20 @@
                                         </tr>
                                     </thead>
                                     <tbody id="content-body">
-                                        @foreach ($get_introduce as $get_introduces)
+                                        @foreach ($get_event as $get_events)
                                             <tr>
-                                                <td>{{$get_introduces->id}}</td>
-                                                <td>{{$get_introduces->title}}</td>
-                                                <td>{{$get_introduces->content}}</td>
+                                                <td>{{$get_events->id}}</td>
+                                                <td>{{$get_events->title}}</td>
+                                                {{-- <td>{{$get_events->content}}</td> --}}
                                                 <td>
-                                                    @if ($get_introduces->status == 1) Hoạt động @else tắt @endif
+                                                    @if ($get_events->status == 1) Hoạt động @else tắt @endif
                                                 </td>
                                                 {{-- <td><img style=" width: 130px;
                                                     height: 130px;
                                                     border: none;" src="/uploads/Introduce/images/{{$get_introduces->image}}" alt="" /></td> --}}
-                                                <td>{{$get_introduces->created_at}}</td>
+                                                <td>{{$get_events->created_at}}</td>
                                                 <td class="d-flex" style="gap: 10px">
-                                                    <a href="/admin/introduce/edit/{{$get_introduces->id}}"
+                                                    <a href="/admin/event/edit/{{$get_events->id}}"
                                                         class="btn-success px-3"
                                                         style="border-radius:5px;display:flex;align-items: center;">Sửa</a>
                                                     {{-- <a href="/admin/promotion/47/edit?locale=th"
@@ -47,10 +47,10 @@
                                                     <a href="/admin/promotion/47/edit?locale=vi"
                                                         class="btn-success px-3"
                                                         style="border-radius:5px;display:flex;align-items: center;">vi</a> --}}
-                                                    <form action="/admin/introduce/delete" method="POST">
+                                                    <form action="/admin/event/delete" method="POST">
                                                         @csrf
                                                          <input
-                                                            name="id" type="hidden" value="{{$get_introduces->id}}">
+                                                            name="id" type="hidden" value="{{$get_events->id}}">
                                                         <button type="submit" class="btn btn-danger">Xóa</button>
                                                     </form>
                                                 </td>
