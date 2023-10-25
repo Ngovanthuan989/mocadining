@@ -92,87 +92,16 @@
         </a>
         <div class="collapse" id="catalogImage">
             <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link"
-                        href="/admin/catalog-image">Danh mục hình ảnh</a></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/catalog-image">Danh mục hình ảnh</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/image">Danh sách hình ảnh</a>
+                </li>
             </ul>
         </div>
     </li>
 
 
-    {{-- <li class="nav-item menu-items">
-        <a class="nav-link" data-toggle="collapse" href="#page" aria-expanded="false"
-            aria-controls="page">
-            <span class="menu-icon">
-                <i class="mdi mdi-laptop"></i>
-            </span>
-            <span class="menu-title">Quản lý trang</span>
-            <i class="menu-arrow"></i>
-        </a>
-        <div class="collapse" id="page">
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link"
-                        href="/admin/page/general">Tùy chỉnh
-                        trang</a></li>
-            </ul>
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link"
-                        href="/admin/page/footer">Chân
-                        trang</a></li>
-            </ul>
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link"
-                        href="/admin/page/index">Trang
-                        chủ</a></li>
-            </ul>
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="/admin/page/bank">Quản
-                        lí ngân hàng</a></li>
-            </ul>
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="/admin/slider">Quản
-                        lý
-                        Banner</a></li>
-            </ul>
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link"
-                        href="/admin/notification">Quản lý
-                        thông báo</a></li>
-            </ul>
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="/admin/ads">Quản lý
-                        quảng
-                        cáo</a></li>
-            </ul>
-            <ul class="nav flex-column sub-menu">
-                <li class="nav-item"><a class="nav-link" href="/admin/spin">Quản lý
-                        vòng
-                        quay</a></li>
-            </ul>
-        </div>
-    </li> --}}
-    {{-- <li class="nav-item menu-items">
-        <a class="nav-link" href="/admin/user">
-            <span class="menu-icon">
-                <i class="mdi mdi-history"></i>
-            </span>
-            <span class="menu-title">Nhân viên</span>
-        </a>
-    </li>
-    <li class="nav-item menu-items">
-        <a class="nav-link" href="/admin/role">
-            <span class="menu-icon">
-                <i class="mdi mdi-history"></i>
-            </span>
-            <span class="menu-title">Phân quyền</span>
-        </a>
-    </li>
-    <li class="nav-item menu-items">
-        <a class="nav-link" href="/admin/range">
-            <span class="menu-icon">
-                <i class="mdi mdi-laptop"></i>
-            </span>
-            <span class="menu-title">Đại lý</span>
-        </a>
-    </li> --}}
 
 </ul>
