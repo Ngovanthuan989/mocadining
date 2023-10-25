@@ -81,6 +81,23 @@
         </div>
     </li>
 
+    <li class="nav-item menu-items">
+        <a class="nav-link" data-toggle="collapse" href="#catalogImage" aria-expanded="false"
+            aria-controls="page">
+            <span class="menu-icon">
+                <i class="mdi mdi-history"></i>
+            </span>
+            <span class="menu-title">Quản lý hình ảnh</span>
+            <i class="menu-arrow"></i>
+        </a>
+        <div class="collapse" id="catalogImage">
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item"><a class="nav-link"
+                        href="/admin/catalog-image">Danh mục hình ảnh</a></li>
+            </ul>
+        </div>
+    </li>
+
 
     {{-- <li class="nav-item menu-items">
         <a class="nav-link" data-toggle="collapse" href="#page" aria-expanded="false"

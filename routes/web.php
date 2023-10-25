@@ -72,5 +72,14 @@ Route::group(['middleware' => ['check.logout']], function () {
             Route::post('/delete', 'Admin\EventController@delete')->name('admin.event.delete');
             Route::post('/addPost', 'Admin\EventController@addPost')->name('admin.event.addPost');
         });
+
+        Route::group(['prefix' => 'catalog-image'], function () {
+            Route::get('/create', 'Admin\CatalogImageController@create')->name('admin.catalogImages.create');
+            Route::get('/', 'Admin\CatalogImageController@index')->name('admin.catalogImages.show');
+            Route::get('/edit/{id}', 'Admin\CatalogImageController@edit')->name('admin.catalogImages.edit');
+            Route::post('/update', 'Admin\CatalogImageController@update')->name('admin.catalogImages.update');
+            Route::post('/delete', 'Admin\CatalogImageController@delete')->name('admin.catalogImages.delete');
+            Route::post('/addPost', 'Admin\CatalogImageController@addPost')->name('admin.catalogImages.addPost');
+        });
     });
 });
