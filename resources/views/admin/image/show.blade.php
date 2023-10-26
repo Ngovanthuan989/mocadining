@@ -26,6 +26,9 @@
                                         @foreach ($get_image as $get_images)
                                             <tr>
                                                 <td>
+                                                    {{$get_images->id}}
+                                                </td>
+                                                <td>
                                                     <img style=" width: 130px;
                                                     height: 130px;
                                                     border: none;" src="/uploads/Image/{{$get_images->image}}" alt="" />

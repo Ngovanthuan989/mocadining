@@ -14,8 +14,12 @@
                             <div class="form-group">
                                 <label for="catalogImage">Danh mục ảnh</label>
                                 <select class="form-control" name="catalogImage" id="catalogImage" required>
-                                    <option value="1">Hoạt động</option>
-                                    <option value="0">Tắt</option>
+                                    @foreach ($get_catalogImage as $get_catalogImages)
+                                        <option value="{{$get_catalogImages->id}}"
+                                            @if($edit_image->catalogImage == $get_catalogImages->id)
+                                            selected
+                                            @endif>{{$get_catalogImages->title}}</option>
+                                    @endforeach
                                 </select>
                             </div>
 

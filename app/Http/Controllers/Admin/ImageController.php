@@ -100,8 +100,13 @@ class ImageController extends Controller
             'id'=> $id
         ])->get();
 
+        $get_catalogImage = DB::table('catalogImage')->get();
+
         return view('admin.image.edit',
-            ['edit_image'=>$edit_image[0]]
+            [
+                'edit_image'       => $edit_image[0],
+                'get_catalogImage' => $get_catalogImage
+            ]
         );
     }
 
