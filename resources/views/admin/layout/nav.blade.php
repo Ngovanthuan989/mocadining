@@ -102,6 +102,23 @@
         </div>
     </li>
 
+    <li class="nav-item menu-items">
+        <a class="nav-link" data-toggle="collapse" href="#news" aria-expanded="false"
+            aria-controls="page">
+            <span class="menu-icon">
+                <i class="mdi mdi-history"></i>
+            </span>
+            <span class="menu-title">Quản lý tin tức</span>
+            <i class="menu-arrow"></i>
+        </a>
+        <div class="collapse" id="news">
+            <ul class="nav flex-column sub-menu">
+                <li class="nav-item">
+                    <a class="nav-link" href="/admin/news">Danh sách tin tức</a>
+                </li>
+            </ul>
+        </div>
+    </li>
 
 
 </ul>

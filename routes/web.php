@@ -90,5 +90,14 @@ Route::group(['middleware' => ['check.logout']], function () {
             Route::post('/delete', 'Admin\ImageController@delete')->name('admin.image.delete');
             Route::post('/addPost', 'Admin\ImageController@addPost')->name('admin.image.addPost');
         });
+
+        Route::group(['prefix' => 'news'], function () {
+            Route::get('/create', 'Admin\NewsController@create')->name('admin.news.create');
+            Route::get('/', 'Admin\NewsController@index')->name('admin.news.show');
+            Route::get('/edit/{id}', 'Admin\NewsController@edit')->name('admin.news.edit');
+            Route::post('/update', 'Admin\NewsController@update')->name('admin.news.update');
+            Route::post('/delete', 'Admin\NewsController@delete')->name('admin.news.delete');
+            Route::post('/addPost', 'Admin\NewsController@addPost')->name('admin.news.addPost');
+        });
     });
 });
