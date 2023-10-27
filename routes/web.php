@@ -99,5 +99,10 @@ Route::group(['middleware' => ['check.logout']], function () {
             Route::post('/delete', 'Admin\NewsController@delete')->name('admin.news.delete');
             Route::post('/addPost', 'Admin\NewsController@addPost')->name('admin.news.addPost');
         });
+
+        Route::group(['prefix' => 'contact'], function () {
+            Route::get('/edit', 'Admin\ContactController@edit')->name('admin.contact.edit');
+            Route::post('/update', 'Admin\ContactController@update')->name('admin.contact.update');
+        });
     });
 });
