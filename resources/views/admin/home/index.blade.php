@@ -6,7 +6,7 @@
     <div class="main-panel">
         <div class="content-wrapper">
             <div class="row">
-                <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
+                {{-- <div class="col-xl-3 col-sm-6 grid-margin stretch-card">
                     <div class="card bg-success">
                         <div class="card-body text-center">
                             <div class="row">
@@ -66,7 +66,7 @@
                             <h6 class="text-white font-weight-normal">Tổng điều chỉnh trong ngày</h6>
                         </div>
                     </div>
-                </div>
+                </div> --}}
 
             </div>
             {{-- <div class="row">
