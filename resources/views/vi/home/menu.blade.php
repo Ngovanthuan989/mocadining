@@ -28,65 +28,58 @@
                         </div>
                         <div class="vc_row-full-width vc_clearfix"></div>
                     </div>
-                    <div class="row-wrapper  vc_custom_1515136464192">
-                        <div class="vc_row-o-content-middle vc_row-flex">
-                            <div class="text_align_center large-8 columns">
-                                <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                        <div class="wpb_text_column wpb_content_element  animate-text">
-                                            <div class="wpb_wrapper">
-                                                <h3>Thực đơn A La Carte</h3>
-
+                    @foreach ($get_menu as $get_menus)
+                        <div class="row-wrapper  vc_custom_1515136464192">
+                            <div class="vc_row-o-content-middle vc_row-flex">
+                                <div class="text_align_center large-8 columns">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_text_column wpb_content_element  animate-text">
+                                                <div class="wpb_wrapper">
+                                                    <h3>{{$get_menus->title}}</h3>
+                                                </div>
                                             </div>
-                                        </div>
-
-                                        <div class="wpb_text_column wpb_content_element  animate-text">
-                                            <div class="wpb_wrapper">
-                                                <p>Mocadining là một trong những nhà hàng Nhật Bản nổi tiếng tại đất Sài thành
-                                                    với phong cách ẩm thực truyền thống cùng các món ăn như sushi, sashimi
-                                                    cũng như các món nướng yakitori … trứ danh từ các nguyên liệu tươi ngon
-                                                    được đánh bắt tại Việt Nam hoặc vận chuyển trực tiếp từ chợ hải sản lừng
-                                                    danh Tsukiji và Osaka của Nhật Bản.</p>
-                                                <p>*Một số món ăn sẽ phục vụ tùy thuộc vào mùa của nguyên liệu trên thị
-                                                    trường</p>
-
+                                            <div class="wpb_text_column wpb_content_element  animate-text">
+                                                <div class="wpb_wrapper menu-describe">
+                                                    {{$get_menus->describe}}
+                                                </div>
                                             </div>
+                                            <div class="text-left animate-text"><a
+                                                    href="/uploads/Menu/pdf/{{$get_menus->pdfMenu}}"
+                                                    target="_blank" class="btn btn-md btn-border-animate btn-dark   ">
+                                                    <span class="btn-text ">Xem Thực Đơn<span class="top button-border"></span>
+                                                        <span class="left left-bottom button-border"></span>
+                                                        <span class="left left-top button-border"></span>
+                                                        <span class="bottom bottom-right button-border"></span>
+                                                        <span class="bottom bottom-left button-border"></span>
+                                                        <span class="right button-border"></span></span>
+                                                </a></div>
                                         </div>
-                                        <div class="text-left animate-text"><a
-                                                href="https://www.soraesushi.com/wp-content/uploads/2023/10/SR_MenuAlarcate2023-PRINT-10102023_compressed.pdf"
-                                                target="_blank" class="btn btn-md btn-border-animate btn-dark   ">
-                                                <span class="btn-text ">Xem Thực Đơn<span class="top button-border"></span>
-                                                    <span class="left left-bottom button-border"></span>
-                                                    <span class="left left-top button-border"></span>
-                                                    <span class="bottom bottom-right button-border"></span>
-                                                    <span class="bottom bottom-left button-border"></span>
-                                                    <span class="right button-border"></span></span>
-                                            </a></div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="large-4 columns">
-                                <div class="vc_column-inner ">
-                                    <div class="wpb_wrapper">
-                                        <div class="wpb_single_image wpb_content_element vc_align_left">
+                                <div class="large-4 columns">
+                                    <div class="vc_column-inner ">
+                                        <div class="wpb_wrapper">
+                                            <div class="wpb_single_image wpb_content_element vc_align_left">
 
-                                            <figure class="wpb_wrapper vc_figure">
-                                                <div
-                                                    class="vc_single_image-wrapper img-wrapper   vc_box_border_grey loaded-img">
-                                                    <img width="2240" height="3360"
-                                                        src="/mocadining.com/wp-content/uploads/2023/10/starter.jpeg"
-                                                        class="vc_single_image-img attachment-full" alt=""
-                                                        srcset="/mocadining.com/wp-content/uploads/2023/10/starter.jpeg 2240w, /mocadining.com/wp-content/uploads/2023/10/starter.jpeg 200w, /mocadining.com/wp-content/uploads/2023/10/starter.jpeg 768w, /mocadining.com/wp-content/uploads/2023/10/starter.jpeg 683w"
-                                                        sizes="(max-width: 2240px) 100vw, 2240px"></div>
-                                            </figure>
+                                                <figure class="wpb_wrapper vc_figure">
+                                                    <div
+                                                        class="vc_single_image-wrapper img-wrapper vc_box_border_grey loaded-img">
+                                                        <img width="2240" height="3360"
+                                                            src="/uploads/Menu/images/{{$get_menus->image}}"
+                                                            class="vc_single_image-img attachment-full" alt=""
+                                                            srcset="/uploads/Menu/images/{{$get_menus->image}} 2240w, /uploads/Menu/images/{{$get_menus->image}} 200w, /uploads/Menu/images/{{$get_menus->image}} 768w, /uploads/Menu/images/{{$get_menus->image}} 683w"
+                                                            sizes="(max-width: 2240px) 100vw, 2240px"></div>
+                                                </figure>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="vc_row-full-width vc_clearfix"></div>
                         </div>
-                        <div class="vc_row-full-width vc_clearfix"></div>
-                    </div>
-                    <div class="row-wrapper  vc_custom_1515136373690">
+                    @endforeach
+                    {{-- <div class="row-wrapper  vc_custom_1515136373690">
                         <div class="vc_row-o-content-middle vc_row-flex">
                             <div class="large-4 columns">
                                 <div class="vc_column-inner ">
@@ -226,7 +219,7 @@
                             </div>
                         </div>
                         <div class="vc_row-full-width vc_clearfix"></div>
-                    </div>
+                    </div> --}}
                 </div>
                 <div class="small-12 columns small-centered blog-content">
                 </div>
@@ -234,6 +227,14 @@
         </div>
 
     </div>
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+    <script>
+        var html = $('.menu-describe').text();
+        html.outerHTML;
+        console.log(html);
+        $('.menu-describe').html(html);
+    </script>
 @endsection
 @section('js')
 @endsection

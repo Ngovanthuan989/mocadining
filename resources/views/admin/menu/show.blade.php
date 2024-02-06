@@ -17,7 +17,7 @@
                                         <tr>
                                             <th>STT</th>
                                             <th>Tiêu đề</th>
-                                            <th>Mô tả</th>
+                                            {{-- <th>Mô tả</th> --}}
                                             <th>Chi tiết thực đơn</th>
                                             <th>Ngày tạo</th>
                                             <th>Trạng thái</th>
@@ -29,7 +29,7 @@
                                             <tr>
                                                 <td>{{$get_menus->id}}</td>
                                                 <td>{{$get_menus->title}}</td>
-                                                <td>{{$get_menus->describe}}</td>
+                                                {{-- <td>{{$get_menus->describe}}</td> --}}
 
                                                 <td class="d-flex" style="gap: 10px">
                                                     <a href="/uploads/Menu/pdf/{{$get_menus->pdfMenu}}"

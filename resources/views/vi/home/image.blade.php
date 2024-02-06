@@ -42,36 +42,34 @@
                                         </div>
                                         <div class="gallery-content">
                                             <div class="gallery-container gallery-3-col gallery-content-class" data-gutter="15">
-                                                <div class="marco-gallery-item">
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1546-copy.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="Đặc Sắc Ẩm Thực Của SORAE">
-                                                        <div class="img-wrapper">
-                                                            <img src="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1546-copy-680x454.jpg" alt="Đặc Sắc Ẩm Thực Của SORAE"/>
-                                                            <div class="marco-gallery-item-info">
-                                                                <div class="marco-gallery-item-title">
-                                                                    <h6>Đặc Sắc Ẩm Thực Của SORAE</h6>
+                                                @foreach ($get_catalogImage as $get_catalogImages)
+                                                    <div class="marco-gallery-item">
+                                                        <a href="/uploads/CatalogImage/images/{{$get_catalogImages->image}}" class="marco-gallery-item-img swipebox" data-rel="{{$get_catalogImages->id}}" title="{{$get_catalogImages->title}}">
+                                                            <div class="img-wrapper">
+                                                                <img src="/uploads/CatalogImage/images/{{$get_catalogImages->image}}" alt="{{$get_catalogImages->title}}"/>
+                                                                <div class="marco-gallery-item-info">
+                                                                    <div class="marco-gallery-item-title">
+                                                                        <h6>{{$get_catalogImages->title}}</h6>
+                                                                    </div>
+                                                                    <div class="gallery-icon">
+                                                                        <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" x="0px" y="0px" style="" viewBox="0 0 100 90" xml:space="preserve">
+                                                                            <circle cx="35" cy="25" r="5" stroke="#111" fill="none" stroke-width="5"></circle>
+                                                                            <path d="M 0,100 0,80 20,60 40,70 70,40 100,70 100,100 z"></path>
+                                                                            <rect x="0" y="0" width="100" height="100" stroke="black" fill="transparent" stroke-width="10"></rect>
+                                                                        </svg>
+                                                                    </div>
                                                                 </div>
-                                                                <div class="gallery-icon">
-                                                                    <svg class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" x="0px" y="0px" style="" viewBox="0 0 100 90" xml:space="preserve">
-                                                                        <circle cx="35" cy="25" r="5" stroke="#111" fill="none" stroke-width="5"></circle>
-                                                                        <path d="M 0,100 0,80 20,60 40,70 70,40 100,70 100,100 z"></path>
-                                                                        <rect x="0" y="0" width="100" height="100" stroke="black" fill="transparent" stroke-width="10"></rect>
-                                                                    </svg>
-                                                                </div>
+                                                                <div class="marco-gallery-item-overlay"></div>
                                                             </div>
-                                                            <div class="marco-gallery-item-overlay"></div>
-                                                        </div>
-                                                    </a>
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE0054-copy.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="SORAE0054 copy"></a>
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1284-copy.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="SORAE1284 copy"></a>
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1783-copy.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="SORAE1783 copy"></a>
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/9.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="9"></a>
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/SORAE1546-copy.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="SORAE1546 copy"></a>
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/8.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="8"></a>
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/7.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="7"></a>
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/hp-1.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="hp 1"></a>
-                                                    <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/hp2.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1245" title="hp2"></a>
-                                                </div>
-                                                <div class="marco-gallery-item">
+                                                        </a>
+                                                        @foreach ($get_image as $get_images)
+                                                            @if ($get_images->catalogImage == $get_catalogImages->id)
+                                                                <a href="/uploads/Image/{{$get_images->image}}" class="marco-gallery-item-img swipebox" data-rel="{{$get_catalogImages->id}}" title=""></a>
+                                                            @endif
+                                                        @endforeach
+                                                    </div>
+                                                @endforeach
+                                                {{-- <div class="marco-gallery-item">
                                                     <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/8.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1244" title="Phong Cách Pha Chế Độc Đáo">
                                                         <div class="img-wrapper">
                                                             <img src="https://www.soraesushi.com/wp-content/uploads/2023/05/8-680x454.jpg" alt="Phong Cách Pha Chế Độc Đáo"/>
@@ -159,7 +157,7 @@
                                                     </a>
                                                     <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/9.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1241" title="9"></a>
                                                     <a href="https://www.soraesushi.com/wp-content/uploads/2023/05/4.jpg" class="marco-gallery-item-img swipebox" data-rel="gallery_group1241" title="4"></a>
-                                                </div>
+                                                </div> --}}
                                                 <div class="gallery-load-more-content"></div>
                                             </div>
                                         </div>

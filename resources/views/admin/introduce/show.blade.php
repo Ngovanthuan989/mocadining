@@ -17,7 +17,7 @@
                                         <tr>
                                             <th>STT</th>
                                             <th>Tiêu đề</th>
-                                            <th>Nội dung</th>
+                                            {{-- <th>Nội dung</th> --}}
                                             {{-- <th>Hình ảnh</th> --}}
                                             <th>Trạng thái</th>
                                             <th>Ngày tạo</th>
@@ -29,7 +29,7 @@
                                             <tr>
                                                 <td>{{$get_introduces->id}}</td>
                                                 <td>{{$get_introduces->title}}</td>
-                                                <td>{{$get_introduces->content}}</td>
+                                                {{-- <td>{{$get_introduces->content}}</td> --}}
                                                 <td>
                                                     @if ($get_introduces->status == 1) Hoạt động @else tắt @endif
                                                 </td>

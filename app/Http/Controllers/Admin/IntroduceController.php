@@ -65,7 +65,7 @@ class IntroduceController extends Controller
             $introduce = new Introduce;
 
             $introduce -> title           = $request     -> get('title');
-            $introduce -> content         = strip_tags($request     -> get('content'));
+            $introduce -> content         = $request     -> get('content');
             $introduce -> status          = $request     -> get('status');
             $introduce -> image           = $filename;
 

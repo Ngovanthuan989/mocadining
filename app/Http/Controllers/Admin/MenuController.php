@@ -72,7 +72,7 @@ class MenuController extends Controller
             $menu = new Menu;
 
             $menu -> title           = $request     -> get('title');
-            $menu -> describe        = strip_tags($request -> get('describe'));
+            $menu -> describe        = $request     -> get('describe');
             $menu -> status          = $request     -> get('status');
             $menu -> image           = $filename;
             $menu -> pdfMenu         = $filenamePdf;

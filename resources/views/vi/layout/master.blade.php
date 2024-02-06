@@ -807,6 +807,7 @@
     <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/js_composer/assets/lib/vc_image_zoom/vc_image_zoom.min.js') }}'>
     </script>
+
 </body>
 
 </html>

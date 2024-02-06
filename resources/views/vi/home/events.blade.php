@@ -31,44 +31,45 @@
                     </div>
                     <div class="vc_row-full-width vc_clearfix"></div>
                 </div>
-                <div class="row-wrapper  vc_custom_1532514617438">
-                    <div class="menu_page_row menu_page_row1 vc_row-o-content-middle vc_row-flex">
-                        <div class="large-4 columns">
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <div class="wpb_single_image wpb_content_element vc_align_left">
-                                        <figure class="wpb_wrapper vc_figure">
-                                            <div class="vc_single_image-wrapper img-wrapper   vc_box_border_grey">
-                                                <img width="1339" height="2048" src="https://www.soraesushi.com/wp-content/uploads/2023/10/kv-romance-sorae.jpeg" class="vc_single_image-img attachment-full" alt="" srcset="https://www.soraesushi.com/wp-content/uploads/2023/10/kv-romance-sorae.jpeg 1339w, https://www.soraesushi.com/wp-content/uploads/2023/10/kv-romance-sorae-196x300.jpeg 196w, https://www.soraesushi.com/wp-content/uploads/2023/10/kv-romance-sorae-768x1175.jpeg 768w, https://www.soraesushi.com/wp-content/uploads/2023/10/kv-romance-sorae-670x1024.jpeg 670w" sizes="(max-width: 1339px) 100vw, 1339px"/>
-                                            </div>
-                                        </figure>
+                @foreach ($get_event as $get_events)
+                    <div class="row-wrapper  vc_custom_1532514617438">
+                        <div class="menu_page_row menu_page_row1 vc_row-o-content-middle vc_row-flex">
+                            <div class="large-4 columns">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_single_image wpb_content_element vc_align_left">
+                                            <figure class="wpb_wrapper vc_figure">
+                                                <div class="vc_single_image-wrapper img-wrapper vc_box_border_grey">
+                                                    <img width="1339" height="2048" src="/uploads/Event/images/{{$get_events->image}}" class="vc_single_image-img attachment-full" alt="" srcset="/uploads/Event/images/{{$get_events->image}} 1339w, /uploads/Event/images/{{$get_events->image}} 196w, /uploads/Event/images/{{$get_events->image}} 768w, /uploads/Event/images/{{$get_events->image}} 670w" sizes="(max-width: 1339px) 100vw, 1339px"/>
+                                                </div>
+                                            </figure>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="large-8 columns">
-                            <div class="vc_column-inner ">
-                                <div class="wpb_wrapper">
-                                    <div class="wpb_text_column wpb_content_element ">
-                                        <div class="wpb_wrapper">
-                                            <p style="text-align: center;">
-                                                <strong>EVERY SATURDAY &#8211;ENCHANTED MELODIES SET MENU FOR 02 GUESTS ONLY AT VND 2,200,000++</strong>
-                                            </p>
-                                            <p style="text-align: center;">Hàng tuần vào tối Thứ 7, SORAE chuyển mình thành không gian ăn tối đầy lãng mạn, nơi mọi chi tiết đều được trau chuốt tỉ mỉ, kết hợp cùng dạ khúc vĩ cầm du dương dành riêng cho các cặp đôi.</p>
-                                            <p style="text-align: center;">Để làm phong phú thêm hương vị tình yêu, SORAE dành riêng Set Menu &#8211;Enchanted Melodies dành cho 02 khách được chính tay bếp trưởng chuẩn bị với mức giá chỉ VND 2,200,000++ bắt đầu từ 01/07/2023.</p>
-                                            <p style="text-align: center;">Hãy để SORAE trở thành nơi tình yêu, âm nhạc và ẩm thực tinh tế đan xen nhau, tạo nên bản giao hưởng lãng mạn, đong đầy cảm xúc của riêng bạn cùng một nửa yêu thương.</p>
-                                            <p style="text-align: center;">
-                                                <a href="https://drive.google.com/file/d/1nOLbHfaObvYqhJTDaI8TPVRvetWgsuK4/view" target="_blank" rel="noopener noreferrer">Xem thực đơn</a>
-                                            </p>
+                            <div class="large-8 columns">
+                                <div class="vc_column-inner ">
+                                    <div class="wpb_wrapper">
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+                                                <p style="text-align: center;">
+                                                    <strong>{{$get_events->title}}</strong>
+                                                </p>
+                                                <div class="event-content">{{$get_events->content}}</div>
+
+                                                <p style="text-align: center;">
+                                                    <a href="{{$get_events->linkMenu}}" target="_blank" rel="noopener noreferrer">Xem thực đơn</a>
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <div class="vc_row-full-width vc_clearfix"></div>
                     </div>
-                    <div class="vc_row-full-width vc_clearfix"></div>
-                </div>
-                <div class="row-wrapper  vc_custom_1532514617438">
+                @endforeach
+                {{-- <div class="row-wrapper  vc_custom_1532514617438">
                     <div class="menu_page_row menu_page_row1 vc_row-o-content-middle vc_row-flex">
                         <div class="large-4 columns">
                             <div class="vc_column-inner ">
@@ -103,12 +104,19 @@
                         </div>
                     </div>
                     <div class="vc_row-full-width vc_clearfix"></div>
-                </div>
+                </div> --}}
             </div>
             <div class="small-12 columns small-centered blog-content"></div>
         </div>
     </div>
 </div>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        var html = $('.event-content').text();
+        html.outerHTML;
+        console.log(html);
+        $('.event-content').html(html);
+    </script>
 @endsection
 @section('js')
 @endsection
