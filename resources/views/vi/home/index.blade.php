@@ -991,7 +991,7 @@
                             <div class="large-3 columns">
                                 <div class="vc_column-inner ">
                                     <div class="wpb_wrapper">
-                                        <div class="mosaic-item id_1652f7f677dbb91477453467" data-sm-height="200"
+                                        {{-- <div class="mosaic-item id_1652f7f677dbb91477453467" data-sm-height="200"
                                             data-lg-height="200">
                                             <div class="mosaic-link">
                                                 <div class="mosaic-img"
@@ -1003,7 +1003,7 @@
                                                 </div>
                                                 <div class="mosaic-item-overlay"></div>
                                             </div>
-                                        </div>
+                                        </div> --}}
                                         <div class="custom-styles"
                                             data-styles=".id_1652f7f677dbb91477453467 .mosaic-item-overlay { background: -moz-linear-gradient(top, rgba(0,0,0,0.01) 0%, #111111 100%); background: -webkit-linear-gradient(top,  rgba(0,0,0,0.01) 0%,#111111 100%); background: linear-gradient(to bottom,  rgba(0,0,0,0.01) 0%,#111111 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3000000', endColorstr='#b3000000',GradientType=0 ); }.id_1652f7f677dbb91477453467 .mosaic-info .mosaic-link:after { background: #ffffff; }">
                                         </div>
