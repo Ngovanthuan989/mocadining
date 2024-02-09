@@ -819,7 +819,7 @@
         </div>
         <div class="home-mobile-icon hide-for-large">
             <div class="icon-contact-mobile homepage-icon">
-                <a class="phone-icon" href="tel:0867071068">
+                <a class="phone-icon" href="tel:0819961997">
                     <svg version="1.1" id="icon-phone-contact" xmlns="http://www.w3.org/2000/svg"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 578.106 578.106"
                         xml:space="preserve">
@@ -853,10 +853,7 @@
 
                                         <div class="wpb_text_column wpb_content_element  vc_custom_1513757041814">
                                             <div class="wpb_wrapper">
-                                                <p style="text-align: center;">“Mocadining” – Phía trên bầu trời, giống như
-                                                    chính tên gọi của mình, Mocadining là một trong những nhà hàng Nhật Bản
-                                                    có tầm nhìn ngoạn mục nhất và cũng là điểm đến lý tưởng nằm ngay
-                                                    giữa trung tâm Sài Gòn.</p>
+                                                <p style="text-align: center;">“Mocadining” – Tiền thân của Moca Cafe 16 Phố Nhà Thờ, một nhà hàng có bề dày lịch sử với hơn 30 năm tuổi. Moca Dining mang đậm phong cách fushion, mỗi món ăn là một tác phẩm nghệ thuật ẩn chứa tâm tư, tình cảm của người đầu bếp.Đến với Moca Dining không chỉ là trải nghiệm của vị giác mà còn là đón nhận sự thư thái đến từ ngũ quan Đắm chìm trong không gian sang trọng, với lối kiến trúc hiện đại nhưng đâu đó, từ sâu thẳm trong trái tim mỗi thực khách là cảm nhận về một Hà Nội xưa trong từng góc nhỏ</p>
 
                                             </div>
                                         </div>
@@ -1333,7 +1330,7 @@
                     <section id="text-17" class="widget widget_text">
                         <h6 class="widget-title"><span>Đặt bàn</span></h6>
                         <div class="textwidget">
-                            <p>Hotline: 0867071068</p>
+                            <p>Hotline: 0819961997</p>
                             <p>Opening hours:</p>
                             <p>Lunch: 11:00 &#8211; 14:00<br /> Dinner: 17:00 &#8211; 23:00</p>
                         </div>
@@ -1341,7 +1338,7 @@
                     <section id="text-19" class="widget widget_text">
                         <h6 class="widget-title"><span>Chăm sóc khách hàng</span></h6>
                         <div class="textwidget">
-                            <p>Hotline: 0867071068</p>
+                            <p>Hotline: 0819961997</p>
                             <p>Email: mocadining@gmail.com</p>
                             <p>&nbsp;</p>
                         </div>
@@ -1426,7 +1423,7 @@
                 <div class="content_left">
                     <a href="#" target="_blank" rel="noopener"> <img src="/mocadining.com/wp-content/uploads/2023/03/MOCADINING.png" alt=""></a>
                     <br>
-                    <br>Công Ty THNH Bình Lý<br> Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội<br> Hotline : 086 707 1068 <br>
+                    <br>Công Ty THNH Bình Lý<br> Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội<br> Hotline : 081 996 1997 <br>
                     </a>
                 </div>
                 <div class="content_right">

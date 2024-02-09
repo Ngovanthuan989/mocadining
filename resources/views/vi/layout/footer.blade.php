@@ -30,7 +30,7 @@
                 <section id="text-17" class="widget widget_text">
                     <h6 class="widget-title"><span>Đặt bàn</span></h6>
                     <div class="textwidget">
-                        <p>Hotline: 0867071068</p>
+                        <p>Hotline: 0819961997</p>
                         <p>Opening hours:</p>
                         <p>Lunch: 11:00 &#8211; 14:00<br /> Dinner: 17:00 &#8211; 23:00</p>
                     </div>
@@ -38,7 +38,7 @@
                 <section id="text-19" class="widget widget_text">
                     <h6 class="widget-title"><span>Chăm sóc khách hàng</span></h6>
                     <div class="textwidget">
-                        <p>Hotline: 0867071068</p>
+                        <p>Hotline: 0819961997</p>
                         <p>Email: mocadining@gmail.com</p>
                         <p>&nbsp;</p>
                     </div>
@@ -124,7 +124,7 @@
                 {{-- <a href="#" target="_blank" rel="noopener"><img
                         src="https://www.soraesushi.com/wp-content/uploads/2020/11/White-Logo-01.png" /></a>
                 <br> --}}
-                <br>Công Ty THNH Bình Lý<br> Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội<br> Hotline : 086 707 1068 <br>
+                <br>Công Ty THNH Bình Lý<br> Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội<br> Hotline : 081 996 1997 <br>
                 </a>
             </div>
             <div class="content_right">

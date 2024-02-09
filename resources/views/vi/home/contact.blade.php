@@ -157,7 +157,7 @@
                                         <div class="wpb_wrapper">
                                             <p>
                                                 MOCADINING<br/>
-                                                Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội<br/>Đặt bàn: 086 707 1068
+                                                Số 14-16 Phố Nhà Thờ, Phường Hàng Trống, Quận Hoàn Kiếm, Hà Nội<br/>Đặt bàn: 081 996 1997
                                             </p>
                                             <p>
                                                 Email: <a href="mailto:mocadining@gmail.com">mocadining@gmail.com</a>
