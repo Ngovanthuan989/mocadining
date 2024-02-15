@@ -1160,12 +1160,7 @@
 
                                         <div class="wpb_text_column wpb_content_element  vc_custom_1533295759108">
                                             <div class="wpb_wrapper">
-                                                <p style="text-align: center;">Sorae là một trong những nhà hàng Nhật
-                                                    Bản nổi tiếng tại đất Sài thành với phong cách ẩm thực truyền thống
-                                                    cùng các món ăn như sushi, sashimi cũng như các món nướng yakitori …
-                                                    trứ danh từ các nguyên liệu
-                                                    tươi ngon được đánh bắt tại Việt Nam hoặc vận chuyển trực tiếp từ
-                                                    chợ hải sản lừng danh Tsukiji và Osaka của Nhật Bản.</p>
+                                                <p style="text-align: center;">“Mocadining” – Tiền thân của Moca Cafe 16 Phố Nhà Thờ, một nhà hàng có bề dày lịch sử với hơn 30 năm tuổi. Moca Dining mang đậm phong cách fushion, mỗi món ăn là một tác phẩm nghệ thuật ẩn chứa tâm tư, tình cảm của người đầu bếp.Đến với Moca Dining không chỉ là trải nghiệm của vị giác mà còn là đón nhận sự thư thái đến từ ngũ quan Đắm chìm trong không gian sang trọng, với lối kiến trúc hiện đại nhưng đâu đó, từ sâu thẳm trong trái tim mỗi thực khách là cảm nhận về một Hà Nội xưa trong từng góc nhỏ.</p>
 
                                             </div>
                                         </div>
