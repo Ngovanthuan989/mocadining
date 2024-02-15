@@ -933,7 +933,7 @@
                                     <div class="wpb_wrapper">
                                         <div class="mosaic-item id_1652f7f677d555921330076" data-sm-height="200"
                                             data-lg-height="530">
-                                            <a class="mosaic-link" href="/vi/gallery_item/excusive-event/">
+                                            <a class="mosaic-link" href="/vi/events-2/">
                                                 <div class="mosaic-img"
                                                     style="background-image: url(/mocadining.com/wp-content/uploads/2023/05/6-683x1024.jpg)">
                                                 </div>
@@ -1009,7 +1009,7 @@
                                         </div>
                                         <div class="mosaic-item id_1652f7f677dd4554689764" data-sm-height="200"
                                             data-lg-height="300">
-                                            <a class="mosaic-link" href="/vi/gallery_item/sorae-feature-touches/">
+                                            <a class="mosaic-link" href="/vi/thuc-don/">
                                                 <div class="mosaic-img"
                                                     style="background-image: url(/mocadining.com/wp-content/uploads/2023/05/SORAE1546-copy-1024x768.jpg)">
                                                 </div>
@@ -1031,7 +1031,7 @@
                                     <div class="wpb_wrapper">
                                         <div class="mosaic-item id_1652f7f677e008158124957" data-sm-height="200"
                                             data-lg-height="530">
-                                            <a class="mosaic-link" href="/vi/gallery_item/private-rooms/">
+                                            <a class="mosaic-link" href="/vi/hinh-anh/">
                                                 <div class="mosaic-img"
                                                     style="background-image: url(/mocadining.com/wp-content/uploads/2023/05/9-683x1024.jpg)">
                                                 </div>
