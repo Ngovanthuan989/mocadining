@@ -40,7 +40,7 @@
                                                 </div>
                                             </div>
                                             <div class="wpb_text_column wpb_content_element  animate-text">
-                                                <div class="wpb_wrapper menu-describe">
+                                                <div class="wpb_wrapper menu-describe{{$get_menus->id}}">
                                                     {{$get_menus->describe}}
                                                 </div>
                                             </div>
@@ -230,10 +230,20 @@
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 
     <script>
-        var html = $('.menu-describe').text();
+        var html = $('.menu-describe61').text();
         html.outerHTML;
         console.log(html);
-        $('.menu-describe').html(html);
+        $('.menu-describe61').html(html);
+
+        var html63 = $('.menu-describe63').text();
+        html63.outerHTML;
+        console.log(html63);
+        $('.menu-describe63').html(html63);
+
+        var html64 = $('.menu-describe64').text();
+        html64.outerHTML;
+        console.log(html64);
+        $('.menu-describe64').html(html64);
     </script>
 @endsection
 @section('js')
