@@ -244,6 +244,11 @@
         html64.outerHTML;
         console.log(html64);
         $('.menu-describe64').html(html64);
+
+        var html65 = $('.menu-describe65').text();
+        html65.outerHTML;
+        console.log(html65);
+        $('.menu-describe64').html(html65);
     </script>
 @endsection
 @section('js')
