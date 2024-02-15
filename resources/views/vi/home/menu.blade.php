@@ -248,7 +248,7 @@
         var html65 = $('.menu-describe65').text();
         html65.outerHTML;
         console.log(html65);
-        $('.menu-describe64').html(html65);
+        $('.menu-describe65').html(html65);
     </script>
 @endsection
 @section('js')
