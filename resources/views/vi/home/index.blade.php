@@ -1212,11 +1212,11 @@
                                             <div style="color: #ffffff">
                                                 <h2>Chúng tôi kiên định lắng nghe để phục vụ. Sự hài lòng của bạn là điều cốt yếu nuôi dưỡng tâm hổn và cuộc sống của chúng tôi. Trong vòng xoáy của hiệu lệnh phục vụ, chúng tôi ưu tiên rõ ràng theo thứ tự sau:
 
-                                                    1. Thực Khách - bạn là nguồn cảm hứng và mục tiêu phục vụ của chúng tôi.
+                                                   <p> 1. Thực Khách - bạn là nguồn cảm hứng và mục tiêu phục vụ của chúng tôi.</p>
 
-                                                    2. Chủ Quán - chúng tôi tôn trọng và phục vụ theo định hướng của người sáng lập và duy trì không gian này trong suốt 30 năm qua.
+                                                   <p>  2. Chủ Quán - chúng tôi tôn trọng và phục vụ theo định hướng của người sáng lập và duy trì không gian này trong suốt 30 năm qua.</p>
 
-                                                    3. Quản Lý - chúng tôi tuân thủ và thực hiện theo sự chỉ đạo của người điều hành trực tiếp tại nhà hàng Moca.
+                                                   <p> 3. Quản Lý - chúng tôi tuân thủ và thực hiện theo sự chỉ đạo của người điều hành trực tiếp tại nhà hàng Moca.</p>
 
                                                     Và sau đó, "Bất hữu lệnh" - chúng tôi lựa chọn không lắng nghe hay phản hồi đối với các yếu tố ngoài ba ưu tiên trên, đảm bảo tập trung tuyệt đối vào việc phục vụ bạn với chất luợng cao nhất.</h2>
                                             </div>
