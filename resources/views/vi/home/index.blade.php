@@ -1627,12 +1627,12 @@
     <script type='text/javascript' src='{{ asset('/mocadining.com/wp-content/themes/marco/assets/js/app.js') }}'></script>
     <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/themes/marco/assets/js/jquery.datetimepicker.full.min.js') }}'></script>
-    <script type='text/javascript'
-        src='{{ asset('/mocadining.com/wp-content/plugins/marco-theme-plugin/js/scripts.min.js') }}'></script>
+    {{-- <script type='text/javascript'
+        src='{{ asset('/mocadining.com/wp-content/plugins/marco-theme-plugin/js/scripts.min.js') }}'></script> --}}
     <script type='text/javascript' src='{{ asset('/mocadining.com/wp-includes/js/wp-embed.min.js') }}'></script>
-    <script type='text/javascript'
+    {{-- <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js') }}'>
-    </script>
+    </script> --}}
     {{-- <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/js_composer/assets/lib/bower/zoom/jquery.zoom.min.js') }}'>
     </script>
