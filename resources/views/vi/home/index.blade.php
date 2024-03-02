@@ -1633,12 +1633,12 @@
     <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js') }}'>
     </script>
-    <script type='text/javascript'
+    {{-- <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/js_composer/assets/lib/bower/zoom/jquery.zoom.min.js') }}'>
     </script>
     <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/js_composer/assets/lib/vc_image_zoom/vc_image_zoom.min.js') }}'>
-    </script>
+    </script> --}}
 </body>
 
 </html>
