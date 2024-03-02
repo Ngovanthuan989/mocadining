@@ -7,9 +7,9 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
 
     <title>Moca Restaurant</title>
-    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    {{-- <link rel='dns-prefetch' href='//fonts.googleapis.com' />
     <link rel='dns-prefetch' href='//stackpath.bootstrapcdn.com' />
-    <link rel='dns-prefetch' href='//s.w.org' />
+    <link rel='dns-prefetch' href='//s.w.org' /> --}}
     {{-- <link rel="alternate" type="application/rss+xml" title="Dòng thông tin SORAE &raquo;"
         href="/mocadining.com/vi/feed/" />
     <link rel="alternate" type="application/rss+xml" title="Dòng phản hồi SORAE &raquo;"
@@ -425,7 +425,7 @@
     <link rel="alternate" href="/" hreflang="en" />
 
     <!-- Facebook Pixel Code -->
-    <script type='text/javascript'>
+    {{-- <script type='text/javascript'>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function() {
@@ -444,21 +444,21 @@
             s.parentNode.insertBefore(t, s)
         }(window,
             document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
-    </script>
+    </script> --}}
     <!-- End Facebook Pixel Code -->
-    <script type='text/javascript'>
+    {{-- <script type='text/javascript'>
         fbq('init', '493013747855495', [], {
             "agent": "wordpress-5.1.17-1.7.21"
         });
     </script>
     <script type='text/javascript'>
         fbq('track', 'PageView', []);
-    </script>
+    </script> --}}
     <!-- Facebook Pixel Code -->
-    <noscript>
+    {{-- <noscript>
         <img height="1" width="1" style="display:none" alt="fbpx"
             src="https://www.facebook.com/tr?id=493013747855495&ev=PageView&noscript=1" />
-    </noscript>
+    </noscript> --}}
     <!-- End Facebook Pixel Code -->
     <style type="text/css">
         .recentcomments a {
@@ -530,7 +530,7 @@
     </script>
 
     <!-- Facebook Pixel Code -->
-    <script>
+    {{-- <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function() {
@@ -553,11 +553,11 @@
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=114823488868110&ev=PageView&noscript=1" /></noscript>
+            src="https://www.facebook.com/tr?id=114823488868110&ev=PageView&noscript=1" /></noscript> --}}
     <!-- End Facebook Pixel Code -->
 
     <!-- Meta Pixel Code -->
-    <script>
+    {{-- <script>
         ! function(f, b, e, v, n, t, s) {
             if (f.fbq) return;
             n = f.fbq = function() {
@@ -580,11 +580,11 @@
         fbq('track', 'PageView');
     </script>
     <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=929701305007359&ev=PageView&noscript=1" /></noscript>
+            src="https://www.facebook.com/tr?id=929701305007359&ev=PageView&noscript=1" /></noscript> --}}
     <!-- End Meta Pixel Code -->
 
     <!-- Google Tag Manager -->
-    <script>
+    {{-- <script>
         (function(w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
@@ -599,7 +599,7 @@
                 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-NZQ7CZB');
-    </script>
+    </script> --}}
     <!-- End Google Tag Manager -->
 
     <!-- Global site tag (gtag.js) - Google Ads: 659698218 -->
