@@ -394,9 +394,9 @@
             letter-spacing: 0px;
         }
     </style>
-    <link rel='stylesheet' id='marco-font-awesome-css'
+    {{-- <link rel='stylesheet' id='marco-font-awesome-css'
         href='https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' type='text/css'
-        media='all' />
+        media='all' /> --}}
     {{-- <script>
         if (document.location.protocol != "https:") {
             document.location = document.URL.replace(/^http:/i, "https:");
@@ -615,7 +615,7 @@
         gtag('config', 'AW-659698218');
     </script> --}}
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script> --}}
 </head>
 
 <body data-rsssl=1
