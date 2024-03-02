@@ -603,7 +603,7 @@
     <!-- End Google Tag Manager -->
 
     <!-- Global site tag (gtag.js) - Google Ads: 659698218 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-659698218"></script>
+    {{-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-659698218"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -613,7 +613,7 @@
         gtag('js', new Date());
 
         gtag('config', 'AW-659698218');
-    </script>
+    </script> --}}
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.js"></script>
 </head>
@@ -622,8 +622,8 @@
     class="home page-template page-template-page-templates page-template-home page-template-page-templateshome-php page page-id-661 nav-classes nav-left nav-center-ver nav-home nav-transparent nav-dark-text wpb-js-composer js-comp-ver-5.2.1 vc_responsive"
     data-height-fixed-nav="80">
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZQ7CZB" height="0" width="0"
-            style="display:none;visibility:hidden"></iframe></noscript>
+    {{-- <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NZQ7CZB" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript> --}}
     <!-- End Google Tag Manager (noscript) -->
 
     {{-- navigation-top --}}
