@@ -1445,7 +1445,7 @@
     {{-- <div class="fixed_booking">
         <a href="https://d1-concepts.com/dat-ban/">Đặt Bàn</a>
     </div> --}}
-    <script type='text/javascript'
+    {{-- <script type='text/javascript'
         src='/mocadining.com/wp-content/themes/marco/assets/js/jquery.datetimepicker.full.min.js'></script>
     <script type="text/javascript">
         jQuery(document).ready(function($) {
@@ -1587,10 +1587,10 @@
             }
             return times;
         }
-    </script>
+    </script> --}}
 
     <!-- Facebook Pixel Event Code -->
-    <script>
+    {{-- <script>
         document.addEventListener(
             'wpcf7submit',
             function(event) {
@@ -1600,9 +1600,9 @@
             },
             false
         );
-    </script>
+    </script> --}}
     <!-- End Facebook Pixel Event Code -->
-    <script type='text/javascript'>
+    {{-- <script type='text/javascript'>
         /* <![CDATA[ */
         var wpcf7 = {
             "apiSettings": {
@@ -1615,10 +1615,9 @@
                 }
             }
         };
-        /* ]]> */
-    </script>
-    <script type='text/javascript'
-        src='{{ asset('/mocadining.com/wp-content/plugins/contact-form-7/includes/js/scripts.js') }}'></script>
+    </script> --}}
+    {{-- <script type='text/javascript'
+        src='{{ asset('/mocadining.com/wp-content/plugins/contact-form-7/includes/js/scripts.js') }}'></script> --}}
     {{-- <script type='text/javascript'>
             var ajaxurl = '/mocadining.com/wp-admin/admin-ajax.php';
             var pageId = '661';
