@@ -471,10 +471,10 @@
     <!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="/mocadining.com/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.min.css" media="screen"><![endif]-->
     <meta name="generator"
         content="Powered by Slider Revolution 5.4.1 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface." />
-    <link rel="icon" href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-32x32.jpg"
-        sizes="32x32" />
-    <link rel="icon" href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-192x192.jpg"
-        sizes="192x192" />
+    {{-- <link rel="icon" href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-32x32.jpg"
+        sizes="32x32" /> --}}
+    {{-- <link rel="icon" href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-192x192.jpg"
+        sizes="192x192" /> --}}
     <link rel="apple-touch-icon-precomposed"
         href="/mocadining.com/wp-content/uploads/2023/03/cropped-sorae-180x180.jpg" />
     <meta name="msapplication-TileImage"
