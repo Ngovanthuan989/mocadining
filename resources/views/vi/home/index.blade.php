@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="profile" href="https://gmpg.org/xfn/11">
+    {{-- <link rel="profile" href="https://gmpg.org/xfn/11"> --}}
 
     <title>Moca Restaurant</title>
     {{-- <link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -321,9 +321,9 @@
         type='text/css' media='all' />
     <link rel='stylesheet' id='marco-child-style-css'
         href='{{ asset('/mocadining.com/wp-content/themes/marco-child/style.css') }}' type='text/css' media='all' />
-    <link rel='stylesheet' id='datetimepicker-css'
+    {{-- <link rel='stylesheet' id='datetimepicker-css'
         href='{{ asset('/mocadining.com/wp-content/themes/marco/assets/css/jquery.datetimepicker.min.css') }}'
-        type='text/css' media='all' />
+        type='text/css' media='all' /> --}}
     <link rel='stylesheet' id='marco-google-fonts-css'
         href='//fonts.googleapis.com/css?family=Lato:400%2C700%2C400i%2C700i%7CLato:400%7CLato:400%7CLora:400i%7CLora:400i%7CLora:400i%7CLora:400i%7CLora:400i&#038;subset=latin'
         type='text/css' media='all' />
@@ -1624,11 +1624,11 @@
         </script> --}}
     <script type='text/javascript' src='{{ asset('/mocadining.com/wp-content/themes/marco/assets/js/libs.js') }}'></script>
     <script type='text/javascript' src='{{ asset('/mocadining.com/wp-content/themes/marco/assets/js/app.js') }}'></script>
-    <script type='text/javascript'
-        src='{{ asset('/mocadining.com/wp-content/themes/marco/assets/js/jquery.datetimepicker.full.min.js') }}'></script>
+    {{-- <script type='text/javascript'
+        src='{{ asset('/mocadining.com/wp-content/themes/marco/assets/js/jquery.datetimepicker.full.min.js') }}'></script> --}}
     {{-- <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/marco-theme-plugin/js/scripts.min.js') }}'></script> --}}
-    <script type='text/javascript' src='{{ asset('/mocadining.com/wp-includes/js/wp-embed.min.js') }}'></script>
+    {{-- <script type='text/javascript' src='{{ asset('/mocadining.com/wp-includes/js/wp-embed.min.js') }}'></script> --}}
     {{-- <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js') }}'>
     </script> --}}
