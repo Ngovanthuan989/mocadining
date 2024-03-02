@@ -405,12 +405,12 @@
     <script type='text/javascript' src='{{ asset('/mocadining.com/wp-includes/js/jquery/jquery.js') }}'></script>
     <script type='text/javascript' src='{{ asset('/mocadining.com/wp-includes/js/jquery/jquery-migrate.min.js') }}'>
     </script>
-    <script type='text/javascript'
+    {{-- <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js') }}'>
     </script>
     <script type='text/javascript'
         src='{{ asset('/mocadining.com/wp-content/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js') }}'>
-    </script>
+    </script> --}}
     {{-- <link rel='https://api.w.org/' href='/mocadining.com/wp-json/' /> --}}
     {{-- <link rel="EditURI" type="application/rsd+xml" title="RSD" href="/mocadining.com/xmlrpc.php?rsd" /> --}}
     {{-- <link rel="wlwmanifest" type="application/wlwmanifest+xml"
